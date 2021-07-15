@@ -1,4 +1,5 @@
 dateFormat = "2006-01-02"
-description = "printlove,go语言学习,go微服务学习，go微服务学习"
+description = "go语言学习免费教程、go语言微服务开发，以及程序猿的个人故事。"
+keywords = "printlove,go,golang,go语言,微服务,go教程"
 [archive]
   dateFormat = "01-02"
