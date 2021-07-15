@@ -1,0 +1,18 @@
+{{- partial "head/favicons" . -}}
+<meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+{{- template "_internal/schema.html" . -}}
+{{ template "_internal/opengraph.html" . }}
+{{- template "_internal/twitter_cards.html" . -}}
+{{- partial "head/feed" . -}}
+{{- partial "head/site-verification" . -}}
+{{- if eq .Permalink (absLangURL "search/") -}}
+<meta data-name="search-index" content="{{ absLangURL "index.json" }}">
+{{- end -}}
+{{- with .Site.Params.palette -}}
+<meta data-name="palette" content="{{ . }}">
+{{- end -}}
+{{- partial "head/assets" . -}}
+{{- partial "head/google-analytics" . -}}
+{{- partial "head/baidu-analytics" . -}}
+{{- partial "head/google-adsense" . -}}
+{{- partial "head/custom" . -}}

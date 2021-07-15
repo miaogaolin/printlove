@@ -1,0 +1,113 @@
+:root {
+  @extend .mode-light;
+  --mode: none;
+  --hbs-font-size: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mode: dark;
+  }
+
+  :root:not(.mode-dark) {
+    @include mode-dark;
+  }
+}
+
+html {
+  position: relative;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--hbs-background);
+  color: var(--hbs-on-background);
+  display: flex;
+  flex-flow: column;
+  font-family: var(--bs-font-sans-serif);
+  font-size: var(--hbs-font-size);
+}
+
+a {
+  text-decoration: none;
+  color: var(--hbs-primary-tex);
+
+  &:hover {
+    color: var(--hbs-accent);
+  }
+}
+
+btn,
+.btn {
+  background-color: var(--hbs-accent);
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+code {
+  color: var(--hbs-accent);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1.5rem 0;
+}
+
+pre {
+  padding: 1rem;
+  border-radius: .25rem;
+}
+
+table {
+  @extend .table;
+  @extend .table-bordered;
+  color: var(--color);
+}
+
+main {
+  margin-bottom: 2rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.surface {
+  background-color: var(--hbs-surface);
+  border-radius: .25rem;
+  box-shadow: 0 .5rem 1rem var(--hbs-shadow);
+  color: var(--hbs-on-surface);
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.list-group-item.active {
+  background-color: var(--hbs-accent);
+  border: var(--hbs-accent);
+}
+
+.fa-fw {
+  margin-right: .25rem;
+}
+
+pre {
+  position: relative;
+  background: var(--hbs-background);
+  color: var(--hbs-on-background);
+}
+
+.btn-copy-code {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 1;
+}

@@ -1,0 +1,36 @@
+baseURL = "https://www.printlove.cn"
+title = "潇洒哥和黑大帅"
+theme = "hugo-theme-bootstrap"
+# copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
+
+# Multilingual mode
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = true
+
+# Pagination
+paginate = 10
+# paginatePath = "page"
+
+# Disqus
+# disqusShortname = "yourdiscussshortname"
+
+# Google analytics
+# googleAnalytics = "UA-123-45"
+
+enableRobotsTXT = true
+
+enableEmoji = true
+
+# hasCJKLanguage = true # Turn on it if your content contains Chinese/Japanese/Korean Languages.
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[outputs]
+  # home = ["HTML", "RSS", "JSON"]
+  home = ["HTML","JSON"]
+
+[taxonomies]
+  category = "categories"
+  # series = "series"
+  # tag = "tags"

@@ -1,0 +1,26 @@
+{{- with .Site.Author -}}
+<section class="profile surface row">
+  <div class="col-xl-6 d-flex align-items-center justify-content-center">
+    <img class="profile-avatar img-fluid" src="{{ absURL (default "images/profile.webp" .avatar) }}" alt="{{ .name }}" loading="lazy">
+  </div>
+  <div class="col-xl-6">
+    <h5 class="profile-name my-2">{{ .name }}</h5>
+    {{- with .bio -}}
+    <div class="profile-bio mb-2">{{ . }}</div>
+    {{- end -}}
+    {{- with .company -}}
+    <div class="profile-company mb-2"><i class="fas fa-fw fa-building"></i>{{ . }}</div>
+    {{- end -}}
+    {{- with .location -}}
+    <div class="profile-location mb-2"><i class="fas fa-fw fa-map-marker-alt"></i>{{ . }}</div>
+    {{- end -}}
+    {{- if .about -}}
+      <div class="profile-about mb-2"><i class="fas fa-fw fa-info-circle"></i><a target="_blank" href="{{ .about }}">{{ i18n "about_me" }}</a></div>
+    {{- else -}}
+      {{- with $.GetPage "about" -}}
+      <div class="profile-about mb-2"><i class="fas fa-fw fa-info-circle"></i><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}
