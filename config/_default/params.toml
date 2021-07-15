@@ -7,7 +7,7 @@
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 logo = "images/logo.jpg"
-brand = "PrintOurLove"
+brand = "PrintLove"
 # menusPosition = "left" # Menus position: right(default), left or center.
 
 palette = "blue" # Default palette. Optional.
