@@ -10,7 +10,7 @@ logo = "images/logo.jpg"
 brand = "PrintLove"
 # menusPosition = "left" # Menus position: right(default), left or center.
 
-palette = "blue" # Default palette. Optional.
+palette = "blue gray" # Default palette. Optional.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
 # palettes = [] # Disable palette switcher.
 
