@@ -57,7 +57,7 @@ customJS = []
   baidu = "code-NTfzacnFYd"
   baiduUnion = "" # Baidu Union
   so = ""
-  sogou = "jH04sz0dUU"
+  sogou = ""
   shenma = ""
 
 [creativeCommons]
