@@ -54,7 +54,7 @@ customJS = []
 [siteVerification]
   google = ""
   bing = ""
-  baidu = ""
+  baidu = "code-NTfzacnFYd"
   baiduUnion = "" # Baidu Union
   so = ""
   sogou = ""
