@@ -5,7 +5,7 @@ theme = "hugo-theme-bootstrap"
 
 # Multilingual mode
 defaultContentLanguage = "zh-cn"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 # Pagination
 paginate = 10
