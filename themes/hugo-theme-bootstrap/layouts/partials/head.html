@@ -1,5 +1,6 @@
+{{- $delimit := ", " -}}
 {{- partial "head/favicons" . -}}
-<meta name="keywords" content="{{if .IsHome}}{{ $.Site.Params.keywords}}{{else}}{{.Keywords}}{{end}}">
+<meta name="keywords" content="{{if .IsHome}}{{ $.Site.Params.keywords }}{{else}}{{ delimit .Keywords $delimit }}{{end}}">
 <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 {{- template "_internal/schema.html" . -}}
 {{ template "_internal/opengraph.html" . }}
