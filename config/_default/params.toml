@@ -53,7 +53,7 @@ customJS = []
 # Site verification
 [siteVerification]
   google = "9Qpc8B088mjrQPtVx38X3LVnltbTV3m-Y7tz90nQ5qw"
-  bing = ""
+  bing = "F76BCD611A8614917D62A8E5CF6326A9"
   baidu = "code-NTfzacnFYd"
   baiduUnion = "" # Baidu Union
   so = ""
