@@ -5,14 +5,13 @@ draft: false
 categories: ["Go基础系列"]
 tags: ["go语言map"]
 description: "go语言map的创建、遍历、删除键等知识讲解"
-featured: false
 ---
 
 # 学到什么
 
 1. 什么是 map？
 2. 如何创建 map？
-3. 判断键是否存在？'
+3. 判断键是否存在？
 4. 如何获取 map 长度？
 5. 如何遍历 map？
 6. 如何删除键/值对？
