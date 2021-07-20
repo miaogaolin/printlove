@@ -1,8 +1,7 @@
 [[main]]
-  name = "下拉菜单"
+  name = "在线工具"
   identifier = "dropdown"
 [[main]]
   parent = "dropdown"
-  name = "公众号-Go基础系列"
-  url = "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIzNzQwNTQwNg==&action=getalbum&album_id=1896319238374473730&scene=173&from_msgid=2247484347&from_itemidx=1&count=3&nolastread=1&uin=&key=&devicetype=Windows+10+x64&version=63030073&lang=zh_CN&ascene=1&session_us=gh_d26aebc88e25&fontgear=2"
-  pre = '<i class="fab fa-fw fa-weixin"></i>'
+  name = "json转go"
+  url = "/tools/json2go"

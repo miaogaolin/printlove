@@ -1,0 +1,44 @@
+---
+title: "在线工具：JSON转Golang Struct"
+description: "在线JSON转Golang Struct工具,JSON转Golang 结构体,JSON转Struct,JSON转Go"
+keywords: ["go", 在线工具"]
+date: 2021-07-20T10:53:56+08:00
+type: ext
+layout: tools
+---
+  <div class="row"> 
+    <div class="t-editarea col-md-5" onpaste="setTimeout(convert,1)"> 
+      <label> JSON </label> 
+      <pre id="input" class="t-textarea fullHeight fixed-size form-control" contenteditable="true"></pre> 
+    </div> 
+    <div class="t-btn col-md-1">
+      <button class="btn" onclick="convert()"> 转换-展开 </button>
+      <button class="btn" onclick="convert(false)"> 转换-嵌套 </button>
+      <button class="btn btn-default" data-clipboard-action="copy" data-clipboard-target="#output"> 复制 </button>
+      <button class="btn btn-default" onclick="cleanup()"> 清空 </button>
+
+    </div> 
+    <div class="t-editarea col-md-6"> 
+      <label> GO </label> 
+      <pre class="t-textarea fullHeight fixed-size form-control"><code id="output"></code></pre> 
+    </div> 
+  </div> 
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.9/highlight.min.js">
+	</script> 
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.9/languages/json.min.js">
+	</script> 
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.9/languages/go.min.js">
+	</script> 
+  <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
+	</script> 
+  <script src="/js/json2go.js"></script>
+  <script>
+		let tools = document.querySelectorAll('.side-nav li');
+		for (let i = 0; i < tools.length; i++) {
+			let node = tools[i];
+			if (node.querySelector('a').getAttribute('href').endsWith(document.location.pathname)) {
+				node.classList.add('active');
+				break
+			}
+		}
+	</script> 
