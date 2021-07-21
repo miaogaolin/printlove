@@ -9,7 +9,7 @@ layout: tools
   <div class="row"> 
     <div class="t-editarea col-md-5" onpaste="setTimeout(convert,1)"> 
       <label> JSON </label> 
-      <pre id="input" class="t-textarea fullHeight fixed-size form-control" contenteditable="true"></pre> 
+      <pre id="input" class="t-textarea fullHeight fixed-size form-control" contenteditable="true">{"url":"https://www.printlove.cn"}</pre> 
     </div> 
     <div class="t-btn col-md-1">
       <button class="btn" onclick="convert()"> 转换-展开 </button>
@@ -41,4 +41,5 @@ layout: tools
 				break
 			}
 		}
+    convert()
 	</script> 
