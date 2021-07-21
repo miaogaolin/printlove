@@ -120,3 +120,8 @@
   color: #fff;
   background-color: var(--hbs-accent);
 }
+
+.content-post {
+  padding-left: $content-padding;
+  padding-right: $content-padding;
+}

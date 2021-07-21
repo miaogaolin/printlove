@@ -111,3 +111,8 @@ pre {
   top: 5px;
   z-index: 1;
 }
+
+.content-list {
+  padding-left: $content-padding;
+  padding-right: $content-padding;
+}

@@ -1,5 +1,5 @@
 {{- $pages := (.Paginate .RegularPagesRecursive).Pages -}}
-<div class="container">
+<div class="container content-list">
   {{- if .IsHome -}}
     {{- $sections := default (slice "posts") .Site.Params.mainSections -}}
     {{- $pages = where (.Paginate .Site.RegularPages).Pages "Type" "in" $sections -}}
