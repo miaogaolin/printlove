@@ -1,4 +1,4 @@
-function json2go(json, typename, flatten=true) {
+function json2go(json, typename, tagName="json", flatten=true) {
     let data;
     let scope;
     let go = "";
@@ -80,7 +80,7 @@ function json2go(json, typename, flatten=true) {
                         struct[keyname] = elem.value;
                         omitempty[keyname] = elem.count !== scopeLength;
                     }
-                    parseStruct(depth + 1, innerTabs, struct, omitempty);
+                    parseStruct(depth + 1, innerTabs, struct, tagName, omitempty);
                 } else if (sliceType === "slice") {
                     parseScope(scope[0], depth)
                 } else {
@@ -98,7 +98,7 @@ function json2go(json, typename, flatten=true) {
                         append(parent)
                     }
                 }
-                parseStruct(depth + 1, innerTabs, scope);
+                parseStruct(depth + 1, innerTabs, scope, tagName);
             }
         } else {
             if (flatten && depth >= 2) {
@@ -108,7 +108,7 @@ function json2go(json, typename, flatten=true) {
             }
         }
     }
-    function parseStruct(depth, innerTabs, scope, omitempty) {
+    function parseStruct(depth, innerTabs, scope, tagName="json", omitempty) {
         if (flatten) {
             stack.push(depth >= 2 ? "\n" : "")
         }
@@ -130,7 +130,7 @@ function json2go(json, typename, flatten=true) {
                 appender(typename + " ");
                 parent = typename;
                 parseScope(scope[keys[i]], depth);
-                appender(' `json:"' + keyname);
+                appender(' `'+tagName+':"' + keyname);
                 if (omitempty && omitempty[keys[i]] === true) {
                     appender(',omitempty');
                 }
@@ -149,7 +149,7 @@ function json2go(json, typename, flatten=true) {
                 append(typename + " ");
                 parent = typename;
                 parseScope(scope[keys[i]], depth);
-                append(' `json:"' + keyname);
+                append(' `'+tagName+':"' + keyname);
                 if (omitempty && omitempty[keys[i]] === true) {
                     append(',omitempty');
                 }
@@ -290,10 +290,10 @@ function json2go(json, typename, flatten=true) {
 }
 let input = document.getElementById('input');
 let output = document.getElementById('output');
-function convert(flat) {
+function convert(flat=true, tagName="json") {
     let json = input.innerText;
     if (json) {
-        let res = json2go(json, null, flat);
+        let res = json2go(json, null, tagName, flat);
         if (res.error) {
             alert(res.error)
         } else {

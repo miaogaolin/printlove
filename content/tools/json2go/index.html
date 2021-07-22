@@ -8,18 +8,22 @@ layout: tools
 ---
   <div class="row"> 
     <div class="t-editarea col-md-5" onpaste="setTimeout(convert,1)"> 
-      <label> JSON </label> 
+      <label class="col-form-label"> JSON </label> 
       <pre id="input" class="t-textarea fullHeight fixed-size form-control" contenteditable="true">{"url":"https://www.printlove.cn"}</pre> 
     </div> 
     <div class="t-btn col-md-1">
-      <button class="btn" onclick="convert()"> 转换-展开 </button>
-      <button class="btn" onclick="convert(false)"> 转换-嵌套 </button>
+      <button class="btn"  id="btnExpan"> 转换-展开 </button>
+      <button class="btn"  id="btnNest"> 转换-嵌套 </button>
       <button class="btn btn-default" data-clipboard-action="copy" data-clipboard-target="#output"> 复制 </button>
       <button class="btn btn-default" onclick="cleanup()"> 清空 </button>
 
     </div> 
     <div class="t-editarea col-md-6"> 
-      <label> GO </label> 
+      <label class="col-form-label"> GO </label> 
+      <div class="float-end align-items-end">
+        <label class="col-form-label">Tag：</label>
+        <input type="text" class="form-control float-end" value="json" id="tag" style="width:80px;">
+      </div>
       <pre class="t-textarea fullHeight fixed-size form-control"><code id="output"></code></pre> 
     </div> 
   </div> 
@@ -41,5 +45,15 @@ layout: tools
 				break
 			}
 		}
+
+    function tagName() {
+      return document.getElementById("tag").value
+    }
     convert()
+    document.getElementById("btnExpan").onclick = function() {
+      convert(true, tagName())
+    }
+    document.getElementById("btnNest").onclick = function() {
+      convert(false, tagName())
+    }
 	</script> 
