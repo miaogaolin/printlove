@@ -3,5 +3,9 @@
   identifier = "dropdown"
 [[main]]
   parent = "dropdown"
-  name = "json转go"
+  name = "JSON转GO"
   url = "/tools/json2go"
+[[main]]
+  parent = "dropdown"
+  name = "SQL转GORM"
+  url = "/tools/sql2gorm"
