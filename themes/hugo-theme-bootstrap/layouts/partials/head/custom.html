@@ -8,12 +8,3 @@
 <script src="{{ absURL . }}" crossorigin="anonymous"></script>
 {{- end -}}
 {{- end -}}
-
-{{ $css := .Resources.Match "**.css"}}
-{{ $js := .Resources.Match "**.js"}}
-{{ range $css }}
-<link rel="stylesheet" href="{{ absURL . }}" crossorigin="anonymous">
-{{ end }}
-{{- range $js -}}
-<script src="{{ absURL . }}" crossorigin="anonymous"></script>
-{{- end -}}
