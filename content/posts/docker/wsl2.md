@@ -1,13 +1,13 @@
 ---
-title: "解决Win10下Docker运行太慢问题？"
+title: "使用了WSL2后，Docker 太慢，如何解决？"
 date: 2021-07-23T10:25:45+08:00
-draft: true
+draft: false
 categories: ["docker"]
 tags: ["WSL2"]
-description: "docker开启了WSL2，运行时太慢，解决此问题，Vscode 配置 WSL"
+description: "docker开启了WSL2，运行时太慢、Vscode 配置 WSL"
 ---
 
-最近在Win10系统下使用Docker时发现具慢，经过一番查访后，原来原因是Docker开启了`WSL2`的锅。对于好奇行这么强的我，关掉wsl2不是我能做出来，毕竟wsl2是新东西，要研究下具体怎么用。
+最近在Win10系统下使用 Docker 时发现有点慢，经过一番查访后，原来原因是 Docker 开启了`WSL2`的锅。对于好奇心这么强的我，关掉 WSL2 不是我能做出来，毕竟 WSL2 是新东西，要研究下具体怎么用。
 
 ## 环境
 
@@ -68,10 +68,13 @@ description: "docker开启了WSL2，运行时太慢，解决此问题，Vscode �
 ![](../images/wsl-6.png)
 
 
-下来看看我的弄好后是什么样子，你看着我的截图红色框对比下，自己是不是也好了。
-![](../iamges/wsl-7.png)
+下来看看我的弄好后是什么样子，你看着我的截图红色框对比下，自己是不是也好了。如果喜欢在 Linux 下工作，这也是个好办法。
+
+![](../images/wsl-7.png)
 
 ## 总结
 
-按照如上的流程，我操作了一遍，Docker 服务在 Vscode 的终端（连接了WSL2）重新启动了下，试了试速度，没有变快。
+本篇讲解了 WSL2 对速度的影响，并且提供了一个在 Win10 系统下在 Linux 环境下开发的方法。
+
+如果遇到不懂的，就在下方留言，不要客气！
 
