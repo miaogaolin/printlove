@@ -42,7 +42,7 @@ function sqlToGorm() {
             'time': 'time.Time',
             'date': 'time.Time',
             'datetime': 'time.Time',
-            'timestramp': 'int64',
+            'timestamp': 'int64',
             'enum': 'string',
             'set': 'string',
             'blob': 'string'
@@ -111,7 +111,10 @@ function sqlToGorm() {
         }
         for (var i = 0, len = res.length; i < len; i++) {
             var field = res[i].match(/\`(.+)\`\s+((tinyint|smallint|int|mediumint|bigint|float|double|decimal|varchar|char|text|mediumtext|longtext|datetime|time|date|enum|set|blob)?[\([\d]+\)]?)?([\w\s\'\.]+(comment\s\'(.*)\'))?/i)
-
+            
+            if (field && field[2] == undefined ) {
+                field = res[i].match(/\`(.+)\`\s+((timestamp)?([\([\d]+\)])?)?([\w\s\'\.]+(comment\s\'(.*)\'))?/i)
+            }
             if (i == 0) { // 第一个字段为数据表名称
                 if (field && field[1] != undefined && field[2] == undefined) {
                     var tbName = titleCase(field[1])
