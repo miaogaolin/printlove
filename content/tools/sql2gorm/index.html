@@ -44,7 +44,10 @@ layout: tools
     <div class="t-editarea col-md-6"> 
       <label class="col-form-label"> GORM </label> 
       <pre class="t-textarea fullHeight fixed-size form-control"><code id="output"></code></pre> 
-  </div> 
+  </div>
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
   <script src="https://cdn.bootcss.com/highlight.js/9.15.9/highlight.min.js">
 	</script> 
   <script src="https://cdn.bootcss.com/highlight.js/9.15.9/languages/sql.min.js">
@@ -53,7 +56,8 @@ layout: tools
 	</script> 
   <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
 	</script> 
-  <script src="/js/jquery-1.4.4.min.js"></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/layer/layer.js"></script>
 
   <script>
     document.getElementById("btnExpan").onclick = function() {
@@ -62,6 +66,7 @@ layout: tools
 
     let input = document.getElementById("input"),
       output = document.getElementById("output")
+    
     function convert() {
       let sql = input.innerText
       if (sql != "") {
@@ -73,7 +78,7 @@ layout: tools
           },
           success: function(res) {
             if (res.error != "") {
-              alert(res.error)
+              layer.alert(res.error)
             } else {
               let gorm = [],
               importLen = res.data.ImportPath.length
