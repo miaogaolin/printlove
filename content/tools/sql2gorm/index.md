@@ -64,25 +64,7 @@ layout: tools
             if (res.error != "") {
               layer.alert(res.error)
             } else {
-              let gorm = [],
-              importLen = res.data.ImportPath.length
-              gorm.push("package " + res.data.Package)
-              if (importLen > 0  ) {
-                gorm.push("import (")
-              }
-              for (i = 0; i < importLen; i++) {
-                  gorm.push("\t\""+res.data.ImportPath[i]+"\"")
-              }
-              
-              if (importLen > 0  ) {
-                gorm.push(")")
-              }
-              
-              gorm.push.apply(gorm, res.data.StructCode)
-          
-              if (res.data.StructCode.length > 0) {
-                output.innerHTML = hljs.highlight("go", gorm.join("\n").trim()).value
-              } 
+                output.innerHTML = hljs.highlight("go", res.data).value  
             }
           } 
         })
