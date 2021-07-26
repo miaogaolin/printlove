@@ -1,0 +1,18 @@
+{{- $currentPage := .Get 0 -}}
+{{- range .Site.Menus.main -}}
+    {{- if .HasChildren -}}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-collapse">        
+            {{- range .Children -}}
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link {{ if eq $currentPage (absLangURL .URL) }} active{{ end }}" aria-current="page" href="{{ absLangURL .URL }}">{{- .Name -}}</a>
+                </li>
+            </ul>
+            {{- end -}}
+            </div>
+        </div>
+    </nav>
+    {{- end -}}
+{{- end -}}

@@ -9,3 +9,7 @@
   parent = "dropdown"
   name = "SQL转GORM"
   url = "/tools/sql2gorm"
+[[main]]
+  parent = "dropdown"
+  name = "SQL转go-zero"
+  url = "/tools/sql2gozero"

@@ -6,22 +6,8 @@ date: 2021-07-20T10:53:56+08:00
 type: ext
 layout: tools
 ---
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <div class="navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/tools/json2go">JSON 转 Golang</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/tools/sql2gorm">SQL 转 GORM</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+{{< navmain `/tools/sql2gorm` >}}
+{{< html >}}
   <div class="row"> 
     <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(convert,1)"> 
       <label class="col-form-label"> SQL </label> 
@@ -108,3 +94,4 @@ layout: tools
 
     convert()
 	</script> 
+  {{< /html >}}
