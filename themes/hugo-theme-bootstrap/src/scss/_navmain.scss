@@ -1,0 +1,10 @@
+.navbar-surface {
+    background-color: var(--hbs-surface);
+    color: var(--hbs-secondary-text);
+}
+.navbar-surface a.active {
+    color: var(--hbs-on-surface)!important;
+}
+.navbar-surface .nav-link:not(.active):hover {
+    color: var(--hbs-on-surface);
+}
