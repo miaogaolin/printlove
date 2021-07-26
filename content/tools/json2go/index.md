@@ -11,7 +11,7 @@ layout: tools
   <div class="row"> 
     <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(pasteConvert,1)"> 
       <label class="col-form-label"> JSON </label> 
-      <pre id="input" class="t-textarea fullHeight fixed-size form-control" contenteditable="plaintext-only">{"url":"https://www.printlove.cn"}</pre> 
+      <pre id="input" class="t-textarea fullHeight fixed-size surface" contenteditable="plaintext-only">{"url":"https://www.printlove.cn"}</pre> 
     </div> 
     <div class="t-btn col-lg-1 col-md-12">
       <button class="btn"  id="btnExpan"> 转换-展开 </button>
@@ -25,7 +25,7 @@ layout: tools
         <label class="col-form-label">Tag：</label>
         <input type="text" class="form-control float-end" value="json" id="tag" style="width:80px;">
       </div>
-      <pre class="t-textarea fullHeight fixed-size form-control"><code id="output"></code></pre> 
+      <pre class="t-textarea fullHeight fixed-size surface"><code id="output"></code></pre> 
     </div> 
   </div>
   <script src="https://cdn.bootcss.com/highlight.js/9.15.9/highlight.min.js">

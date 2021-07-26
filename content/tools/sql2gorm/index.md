@@ -11,7 +11,7 @@ layout: tools
   <div class="row"> 
     <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(convert,1)"> 
       <label class="col-form-label"> SQL </label> 
-      <pre id="input" class="t-textarea fullHeight fixed-size form-control" contenteditable="true">CREATE TABLE `blacklists`  (
+      <pre id="input" class="t-textarea fullHeight fixed-size surface" contenteditable="true">CREATE TABLE `blacklists`  (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `email` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `type` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
@@ -29,8 +29,8 @@ layout: tools
     </div> 
     <div class="t-editarea col-lg-6 col-md-12"> 
       <label class="col-form-label"> GORM </label> 
-      <pre class="t-textarea fullHeight fixed-size form-control"><code id="output"></code></pre> 
-  </div>
+      <pre class="t-textarea fullHeight fixed-size surface"><code id="output"></code></pre> 
+    </div>
   
   <script src="https://cdn.bootcss.com/highlight.js/9.15.9/highlight.min.js">
 	</script> 
