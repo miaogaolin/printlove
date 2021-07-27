@@ -7,11 +7,13 @@
 .t-editarea {
   .form-control {
     background-color: var(--hbs-surface);
-    color: var(--hbs-secondary-text);
     border-color: var(--hbs-accent);
   
     &:focus {
       color: var(--hbs-primary-text);
     }
+  }
+  .form-control:not(pre) {
+    color: var(--hbs-secondary-text);
   }
 }
