@@ -90,8 +90,9 @@ PRIMARY KEY (`id`) USING BTREE
   {{< /html >}}
 **说明：**
   
-* 基于项目： [https://github.com/tal-tech/go-zero](https://github.com/tal-tech/go-zero)
-* 手动增加 `var.go` 文件
+1.基于项目： [https://github.com/tal-tech/go-zero](https://github.com/tal-tech/go-zero)
+
+2.手动增加 `var.go` 文件
 ```go
 package model
 
