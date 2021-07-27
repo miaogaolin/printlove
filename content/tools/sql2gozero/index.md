@@ -1,7 +1,6 @@
 ---
 title: "在线工具：SQL转go-zero Model"
 description: "无需下载，在线SQL转go-zero model，粘贴即可生成"
-keywords: ["SQL转go", "SQL转换", "sql转go-zero"]
 date: 2021-07-20T10:53:56+08:00
 type: ext
 layout: tools
