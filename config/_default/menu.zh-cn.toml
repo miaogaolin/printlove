@@ -13,3 +13,7 @@
   parent = "dropdown"
   name = "SQL转go-zero"
   url = "/tools/sql2gozero"
+[[main]]
+  parent = "dropdown"
+  name = "SQL转entgo"
+  url = "/tools/sql2ent"

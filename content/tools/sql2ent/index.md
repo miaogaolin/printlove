@@ -1,11 +1,11 @@
 ---
-title: "在线工具：SQL转go-zero Model"
-description: "无需下载，在线SQL转go-zero model，粘贴即可生成"
+title: "在线工具：SQL转entgo schema"
+description: "无需下载，在线SQL转entgo schema，粘贴即可生成"
 date: 2021-07-20T10:53:56+08:00
 type: ext
 layout: tools
 ---
-{{< navmain `/tools/sql2gozero`>}}
+{{< navmain `/tools/sqlent`>}}
 {{< html >}}
 <div class="row"> 
   <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(convert,1)"> 
@@ -27,12 +27,7 @@ PRIMARY KEY (`id`) USING BTREE
 
   </div> 
   <div class="t-editarea col-lg-6 col-md-12"> 
-    <label class="col-form-label"> GORM </label>
-    <div class="checkbox float-end align-items-end">
-      <label class="col-form-label">
-        <input type="checkbox" id="cache" class="form-check-input" checked> 启用缓存
-      </label>
-    </div>
+    <label class="col-form-label"> entgo </label>
     <pre class="t-textarea fullHeight fixed-size form-control"><code id="output"></code></pre> 
 </div>
 
@@ -64,7 +59,7 @@ PRIMARY KEY (`id`) USING BTREE
       let sql = input.innerText
       if (sql != "") {
         $.ajax({
-          url: "/api/sql2gozero",
+          url: "/api/sql2ent",
           type: "post",
           data: {
             ddl: sql,
@@ -90,15 +85,13 @@ PRIMARY KEY (`id`) USING BTREE
   {{< html >}}<div class="tool-info">{{< /html >}}
 **说明：**
   
-1.基于项目： [https://github.com/tal-tech/go-zero](https://github.com/tal-tech/go-zero)
+目前项目正处于完善阶段，如果您遇到任何问题，都可在下方留言，我看到都会及时回复。
 
-2.手动增加 `var.go` 文件
-```go
-package model
 
-import "github.com/tal-tech/go-zero/core/stores/sqlx"
+**进入开源：**
 
-var ErrNotFound = sqlx.ErrNotFound
-```
+经过调研，市面上这个完善的工具还没有，因此计划将此项目着重开发并且开源，以供大家使用。
+
+项目开源地址：[https://www.github.com/miaogaolin/sql2ent](https://www.github.com/miaogaolin/sql2ent)
 
 {{< html >}}</div>{{< /html >}}

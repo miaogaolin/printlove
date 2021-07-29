@@ -1,0 +1,24 @@
+.toollist .block-list {
+    background-color: var(--hbs-surface);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem var(--hbs-shadow);
+    color: var(--hbs-on-surface);
+    padding: 1rem;
+}
+
+.tool-info {
+    background-color: var(--hbs-surface);
+    border-radius: .25rem;
+    color: var(--hbs-on-surface);
+    padding: 1rem;
+    box-shadow: 0 .5rem 1rem var(--hbs-shadow);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    a {
+        color: var(--hbs-accent);
+
+        &:hover {
+          text-decoration: underline;
+        }
+    }
+}
