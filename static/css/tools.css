@@ -1,0 +1,26 @@
+.t-btn .btn {
+	width: 100px;
+	height: 40px;
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.t-btn .btn:first-child {
+	margin-top: 30px;
+}
+
+.t-btn {
+	padding: 0;
+}
+.t-editarea {
+	height: 90vh;
+}
+.t-editarea .t-textarea {
+	height: 90%;
+}
+
+#input>div, #output>div{
+	height: 100%;
+}

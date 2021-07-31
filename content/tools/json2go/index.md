@@ -10,8 +10,8 @@ layout: tools
 {{< html >}}
   <div class="row"> 
     <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(pasteConvert,1)"> 
-      <label class="col-form-label"> JSON </label> 
-      <pre id="input" class="t-textarea fullHeight fixed-size form-control" contenteditable="plaintext-only">{"url":"https://www.printlove.cn"}</pre> 
+      <label class="col-form-label"> JSON </label>
+      <div id="input" class="t-textarea fullHeight fixed-size"></div> 
     </div> 
     <div class="t-btn col-lg-1 col-md-12">
       <button class="btn"  id="btnExpan"> 转换-展开 </button>
@@ -25,24 +25,30 @@ layout: tools
         <label class="col-form-label">Tag：</label>
         <input type="text" class="form-control float-end" value="json" id="tag" style="width:80px;">
       </div>
-      <pre class="t-textarea fullHeight fixed-size form-control"><code id="output"></code></pre> 
+      <div class="t-textarea fullHeight fixed-size" id="output"></div> 
     </div> 
   </div>
-  <script src="https://cdn.bootcss.com/highlight.js/9.15.9/highlight.min.js">
-	</script> 
-  <script src="https://cdn.bootcss.com/highlight.js/9.15.9/languages/json.min.js">
-	</script> 
-  <script src="https://cdn.bootcss.com/highlight.js/9.15.9/languages/go.min.js">
-	</script> 
   <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
-	</script> 
+	</script>
+  <script src="/js/tools.js"></script>
   <script src="/js/json2go.js"></script>
-  <script src="/js/common.js"></script>
   <script>
+    let input = new highlight(
+      document.getElementById("input"), 
+      "javascript", 
+      '{"url":"https://www.printlove.cn"}'
+    )
+
+    let output = new highlight(
+      document.getElementById("output"), 
+      "go", 
+      '等待转化结果...'
+    )
+
     function tagName() {
       return document.getElementById("tag").value
     }
-    convert()
+  
     document.getElementById("btnExpan").onclick = function() {
       convert(true, tagName())
     }
@@ -52,5 +58,17 @@ layout: tools
     function pasteConvert() {
       convert(true, tagName())
     }
+
+    function convert(flat=true, tagName="json") {
+      let res = json2go(input.getValue(), null, tagName, flat);
+      if (res.error) {
+          alert(res.error)
+          return
+      }
+      output.setValue(res.go)
+    }
+    convert()
+
+    listenMode(input, output)
 	</script>
   {{< /html >}}

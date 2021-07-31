@@ -39,10 +39,16 @@ poweredBy = false # Whether to show powered by.
 
 # Custom CSS and JS
 customCSS = [
-  "https://cdn.bootcss.com/highlight.js/9.15.9/styles/idea.min.css", 
-  "/css/json2go.css"
+  "/codemirror/lib/codemirror.css", 
+  "/codemirror/theme/nord.css",
+  "/css/tools.css"
 ]
-customJS = []
+customJS = [
+  "/codemirror/lib/codemirror.js",
+  "/codemirror/mode/sql/sql.js",
+  "/codemirror/mode/go/go.js",
+  "/codemirror/mode/javascript/javascript.js"
+]
 
 # tocWordCount = 280 # TOC is displayed only if the post's word count exceeds this value.
 

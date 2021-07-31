@@ -288,17 +288,3 @@ function json2go(json, typename, tagName="json", flatten=true) {
         return keys
     }
 }
-let input = document.getElementById('input');
-let output = document.getElementById('output');
-function convert(flat=true, tagName="json") {
-    let json = input.innerText;
-    if (json) {
-        let res = json2go(json, null, tagName, flat);
-        if (res.error) {
-            alert(res.error)
-        } else {
-            output.innerHTML = hljs.highlight("go", res.go).value;
-        }
-        input.innerHTML = hljs.highlight("json", json).value;
-    }
-}
