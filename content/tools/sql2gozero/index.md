@@ -49,14 +49,20 @@ layout: tools
       '等待转化结果...'
     )
     
+    let cacheEle = document.getElementById("cache") 
     function convert() {
+      let cache = 0
+      if (cacheEle.checked) {
+        cache = 1
+      }
       let sql = input.getValue()
       if (sql != "") {
         $.ajax({
           url: "/api/sql2gozero",
           type: "post",
           data: {
-            ddl: sql
+            ddl: sql,
+            cache: cache
           },
           success: function(res) {
             if (res.error != "") {
