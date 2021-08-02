@@ -74,10 +74,17 @@ layout: tools
 目前项目正处于完善阶段，如果您遇到任何问题，都可在下方留言，我看到都会及时回复，并且改进。
 
 
-**进入开源：**
+#### sql2ent
+
+1. 进入开源
 
 经过调研（手动找），市面上这个完善的工具还没有，因此计划将此项目着重开发并且开源，以供大家使用。
 
 项目开源地址：[https://www.github.com/miaogaolin/sql2ent](https://www.github.com/miaogaolin/sql2ent)
+
+2. 功能
+* 支持命令行由 `sql` 文件批量转化为 `ent schema`
+* 目前仅支持 mysql
+* 继续完善
 
 {{< html >}}</div>{{< /html >}}
