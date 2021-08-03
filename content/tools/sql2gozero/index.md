@@ -27,6 +27,7 @@ layout: tools
     </div>
     <div id="output" class="t-textarea fullHeight fixed-size"></div> 
   </div>
+  </div>
   <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
 	</script> 
   <script src="/js/jquery.js"></script>

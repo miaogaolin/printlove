@@ -22,7 +22,7 @@ layout: tools
       <label class="col-form-label"> GORM </label> 
       <div class="t-textarea fullHeight fixed-size" id="output"></div> 
     </div>
-  
+  </div>
   <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
 	</script> 
   <script src="/js/jquery.js"></script>

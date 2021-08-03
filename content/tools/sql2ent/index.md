@@ -7,22 +7,21 @@ layout: tools
 ---
 {{< navmain `/tools/sql2ent`>}}
 {{< html >}}
-<div class="row"> 
-  <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(convert,1)"> 
-    <label class="col-form-label"> SQL </label> 
-    <div id="input" class="t-textarea fullHeight fixed-size"></div> 
+  <div class="row"> 
+    <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(convert,1)"> 
+      <label class="col-form-label"> SQL </label> 
+      <div id="input" class="t-textarea fullHeight fixed-size"></div> 
+    </div>
+    <div class="t-btn col-lg-1 col-md-12">
+      <button class="btn"  id="btnExpan"> 转换 </button>
+      <button class="btn btn-default" data-clipboard-action="copy" data-clipboard-target="#output"> 复制 </button>
+      <button class="btn btn-default" onclick="cleanup()"> 清空 </button>
+    </div> 
+    <div class="t-editarea col-lg-6 col-md-12"> 
+      <label class="col-form-label"> entgo schema</label>
+      <div class="t-textarea fullHeight fixed-size" id="output"></div> 
+    </div>
   </div>
-  <div class="t-btn col-lg-1 col-md-12">
-    <button class="btn"  id="btnExpan"> 转换 </button>
-    <button class="btn btn-default" data-clipboard-action="copy" data-clipboard-target="#output"> 复制 </button>
-    <button class="btn btn-default" onclick="cleanup()"> 清空 </button>
-
-  </div> 
-  <div class="t-editarea col-lg-6 col-md-12"> 
-    <label class="col-form-label"> entgo schema</label>
-    <div class="t-textarea fullHeight fixed-size" id="output"></div> 
-</div>
-
   <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
 	</script> 
   <script src="/js/jquery.js"></script>
