@@ -12,13 +12,20 @@
   <body{{ if in (slice "light" "dark") $color }}{{ printf " class=\"mode-%s\"" $color | safeHTMLAttr }}{{ end }}>
     {{- partial "header.html" . -}}
     {{- partial "hooks/main-begin" . -}}
-    <main role="main" class="container{{ if default false .Site.Params.fullWidth }}-fluid{{ end }}">
-      <div class="row content">
+    {{ $type := .Type }}
+    {{- if eq $type "ext" -}}
+      <main role="main" class="tool-main">
         {{- block "content" . -}}{{- end -}}
-      </div>
-    </main>
-    {{- partial "hooks/main-end" . -}}
-    {{- partial "footer.html" . -}}
-    {{- partial "body-end" . -}}
-  </body>
+      </main>
+    {{- else -}}
+      <main role="main" class="container{{ if default false .Site.Params.fullWidth }}-fluid{{ end }}">
+        <div class="row content">
+          {{- block "content" . -}}{{- end -}}
+        </div>
+      </main>
+    {{- end -}}
+      {{- partial "hooks/main-end" . -}}
+      {{- partial "footer.html" . -}}
+      {{- partial "body-end" . -}}
+    </body>
 </html>
