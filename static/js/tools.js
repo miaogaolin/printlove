@@ -43,6 +43,9 @@ function highlight(ele, lang, value) {
             lineNumbers:this.lineNumbers
         })
     }
+    this.change = function(callback) {
+        this.codemirror.on("change", callback)
+    }
     this.setLang = function(lang) {
         this.lang = lang
         this.codemirror.setOption("mode", lang)
@@ -77,5 +80,13 @@ function listenMode(input, output) {
             input.setLight()
             output.setLight()
         }
+    })
+}
+
+function copy(output) {
+    let btnCopy = document.getElementById("btnCopy")
+    btnCopy.setAttribute("data-clipboard-text", output.getValue())
+    output.change(function(obj) {
+        btnCopy.setAttribute("data-clipboard-text", obj.getValue())
     })
 }
