@@ -57,7 +57,6 @@ class ModeSwitcher {
   }
 
   rerenderComments(mode: string) {
-    console.log(this.utterances);
     if (!this.utterances.repo) {
       return;
     }
