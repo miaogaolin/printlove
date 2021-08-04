@@ -9,9 +9,9 @@ let initSQl = "CREATE TABLE `blacklists`  (\n"+
 "PRIMARY KEY (`id`) USING BTREE\n"+
 ") ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = DYNAMIC;"
 
-function cleanup() {
-    document.getElementById('input').innerHTML = ""
-    document.getElementById('output').innerHTML = '';
+function cleanup(input, output) {
+    input.setValue("")
+    output.setValue("")
 }
 
 new ClipboardJS('.btn').on('success', function() {

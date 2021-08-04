@@ -15,7 +15,7 @@ layout: tools
   <div class="t-btn col-lg-1 col-md-12">
     <button class="btn"  id="btnExpan"> 转换 </button>
     <button class="btn btn-default" data-clipboard-action="copy" data-clipboard-target="#output"> 复制 </button>
-    <button class="btn btn-default" onclick="cleanup()"> 清空 </button>
+    <button class="btn btn-default" id="btnClear"> 清空 </button>
 
   </div> 
   <div class="t-editarea col-lg-6 col-md-12"> 
@@ -50,6 +50,10 @@ layout: tools
       '等待转化结果...'
     )
     
+    document.getElementById("btnClear").onclick = function() {
+        cleanup(input, output)
+    }
+
     let cacheEle = document.getElementById("cache") 
     function convert() {
       let cache = 0

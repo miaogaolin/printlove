@@ -17,7 +17,7 @@ layout: tools
       <button class="btn"  id="btnExpan"> 转换-展开 </button>
       <button class="btn"  id="btnNest"> 转换-嵌套 </button>
       <button class="btn btn-default" data-clipboard-action="copy" data-clipboard-target="#output"> 复制 </button>
-      <button class="btn btn-default" onclick="cleanup()"> 清空 </button>
+      <button class="btn btn-default" id="btnClear"> 清空 </button>
     </div> 
     <div class="t-editarea col-lg-6 col-md-12"> 
       <label class="col-form-label"> GO </label> 
@@ -44,6 +44,10 @@ layout: tools
       "go", 
       '等待转化结果...'
     )
+
+    document.getElementById("btnClear").onclick = function() {
+        cleanup(input, output)
+    }
 
     function tagName() {
       return document.getElementById("tag").value
