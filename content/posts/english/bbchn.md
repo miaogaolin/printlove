@@ -4,21 +4,19 @@ date: 2021-07-24T18:18:56+08:00
 draft: false
 categories: ["时事外刊"]
 description: "看BBC对河南洪灾的报道学英语"
-author:
-  display_name: 黑大帅
 ---
 
-# BBC 报道
+## BBC 报道
 我摘录了一些 BBC 报道的标题截图，带大家从这些标题中学几个哇塞的单词。
 
-## 1. evacuate
+### 1. evacuate
 ![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
 
 "v. to move people from a place of danger to a safer place",（把人从危险的地方）疏散，转移，撤离
 
 **短语结构**：evacuate sb from ...
 
-## 2. sweep down
+### 2. sweep down
 ![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
 
 席卷；突袭；吹倒
@@ -26,12 +24,12 @@ author:
 这里标题省略了被动语态中的 be 动词 were，所以完整的谓语应该是 "were swept down"，意思是一个女人被迅猛的洪水冲下了街道。
 
 
-## 3. flood terror
+### 3. flood terror
 ![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
 
 **terror** 是名词，可理解为恐怖的事。直译为中国洪水恐怖事件，不太符合中文的语言习惯。再来看 as 后面的内容，火车车厢被淹没，这是“中国洪水恐怖事件”的结果，“洪水恐怖事件”导致“车厢被淹”，所以这里可以意译为“中国洪水泛滥，火车车厢被淹没”。
 
-## 4. chest-high
+### 4. chest-high
 ![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
 **chest-high** 是名词+形容词组成的复合形容词，意思是“齐胸的”，这样的复合形容词还有很多，如:
 * ice-cold 冰冷的  
@@ -39,7 +37,7 @@ author:
 * nation-wide 全国性的  
 * snow-white 雪白的 等等。
 
-## 5. hit
+### 5. hit
 **hit** 是个小词，但又很重要，意思也很多，需要多多了解。
 
 **短语结构**：hit sb/sth
@@ -55,7 +53,7 @@ author:
 
 补充知识：英文新闻标题为了简洁，强调重点，一般会省略一些冠词，助动词及句尾句号；一般会使用分号或逗号代替 and；使用冒号代替 say、 tell、 report 等词引入或解释接下来的内容；把双引号变成单引号（为了节省空间，突出重点）。
 
-# 接下来看看一篇文章
+## 接下来看看一篇文章
 
 ![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
 这篇文章是讲中国人们团结一致运用微博来帮助河南受灾群众，看看BBC是如何报道的。
@@ -92,7 +90,7 @@ Free Weibo, a site that determines whether posts have been censored, said these 
 
 One post asked whether authorities should be held accountable.
 
-## 速看单词
+### 速看单词
 
 * engulf    v.包围，吞没，淹没
 
@@ -112,6 +110,6 @@ One post asked whether authorities should be held accountable.
 
 * accountable adj. 有责任的；有解释义务的；可解释的
 
-# 总结
+## 总结
 
 通过阅读外刊来学习英语是非常有效的方式之一，这篇文章分析了BBC关于河南洪灾的几篇报道的标题，再加上一篇具体内容的泛读。大家可以记一下热点新闻的英文表达方式，再通过文末的文章进行泛读，提高阅读速度，了解相关信息。今天的阅读到此结束，谢谢大家！
