@@ -9,6 +9,44 @@ let initSQl = "CREATE TABLE `blacklists`  (\n"+
 "PRIMARY KEY (`id`) USING BTREE\n"+
 ") ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = DYNAMIC;"
 
+let initYaml = 'kind: test\n\
+metadata:\n\
+    name: cluster\n\
+    nullfield:\n\
+    nestedstruct:\n\
+    - nested:\n\
+        underscore_field: value\n\
+        field1:\n\
+        - 44.5\n\
+        - 43.6\n\
+        field2:\n\
+        - true\n\
+        - false\n\
+    nested2:\n\
+        - nested3:\n\
+            field1:\n\
+            - 44\n\
+            - 43\n\
+            fieldt:\n\
+            - true\n\
+            - false\n\
+            field3: value\n\
+abc:\n\
+    - def:\n\
+    - black\n\
+    - white\n\
+array1:\n\
+    - "string1"\n\
+    - "string2"\n\
+array2:\n\
+    - 2\n\
+    - 6\n\
+array3:\n\
+    - 3.14\n\
+    - 5.12\n\
+is_underscore: true\n\
+'
+
 function cleanup(input, output) {
     input.setValue("")
     output.setValue("")

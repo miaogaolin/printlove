@@ -20,3 +20,7 @@
   parent = "dropdown"
   name = "SQL转entgo"
   url = "/tools/sql2ent"
+[[main]]
+  parent = "dropdown"
+  name = "YAML转GO"
+  url = "/tools/yaml2go"
