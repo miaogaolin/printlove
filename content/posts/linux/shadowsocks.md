@@ -31,7 +31,7 @@ chmod +x shadowsocks.sh
 作用：可查看客户端访问的所有请求
 
 ```
-/var/log/shadowsocks.log # 默认单用户
+/var/log/shadowsocks.log
 ```
 
 ## 多用户
