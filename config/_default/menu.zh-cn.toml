@@ -24,3 +24,7 @@
   parent = "dropdown"
   name = "YAML转GO"
   url = "/tools/yaml2go"
+[[main]]
+  parent = "dropdown"
+  name = "XML转JSON"
+  url = "/tools/xml2json"

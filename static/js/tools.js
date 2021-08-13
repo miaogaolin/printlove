@@ -47,6 +47,11 @@ array3:\n\
 is_underscore: true\n\
 '
 
+let initXml = '<?xml version="1.0" encoding="UTF-8"?>\n\
+<osm version="0.6" generator="CGImap 0.0.2">\n\
+ <bounds minlat="54.0889580" minlon="12.2487570" maxlat="54.0913900" maxlon="12.2524800"/>\n\
+ <foo>bar</foo>\n\
+</osm>'
 function cleanup(input, output) {
     input.setValue("")
     output.setValue("")

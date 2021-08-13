@@ -48,7 +48,8 @@ customJS = [
   "/codemirror/mode/sql/sql.js",
   "/codemirror/mode/go/go.js",
   "/codemirror/mode/javascript/javascript.js",
-  "/codemirror/mode/yaml/yaml.js"
+  "/codemirror/mode/yaml/yaml.js",
+  "/codemirror/mode/xml/xml.js"
 ]
 
 # tocWordCount = 280 # TOC is displayed only if the post's word count exceeds this value.
