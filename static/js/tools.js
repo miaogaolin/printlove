@@ -9,6 +9,11 @@ let initSQl = "CREATE TABLE `blacklists`  (\n"+
 "PRIMARY KEY (`id`) USING BTREE\n"+
 ") ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = DYNAMIC;"
 
+let initSelectSql = "select * from aaa\n\
+where a=1 and x = '三个男人'\n\
+and create_time between '2015-01-01T00:00:00+0800' and '2016-01-01T00:00:00+0800'\n\
+and process_id > 1 order by id desc limit 100,10"
+
 let initYaml = 'kind: test\n\
 metadata:\n\
     name: cluster\n\

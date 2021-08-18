@@ -28,3 +28,7 @@
   parent = "dropdown"
   name = "XML转JSON"
   url = "/tools/xml2json"
+[[main]]
+  parent = "dropdown"
+  name = "SQL转ElasticSearch"
+  url = "/tools/sql2es"

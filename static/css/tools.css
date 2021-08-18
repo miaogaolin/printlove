@@ -17,6 +17,9 @@
 .t-editarea {
 	height: 90vh;
 }
+.t-editarea * {
+	font-family: consolas, 微软雅黑, Arial, sans-serif;
+}
 .t-editarea .t-textarea {
 	height: 90%;
 }
