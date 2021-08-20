@@ -63,9 +63,9 @@ function cleanup(input, output) {
 }
 
 new ClipboardJS('.btn').on('success', function() {
-    alert('复制成功')
+    layer.msg('复制成功')
 }).on('error', function() {
-    alert('复制失败,请手动复制')
+    layer.msg('复制失败,请手动复制')
 });
 
 function highlight(ele, lang, value) {
