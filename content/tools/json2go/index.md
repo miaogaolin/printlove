@@ -33,7 +33,7 @@ layout: tools
   <script src="/js/jquery.js"></script>
   <script src="/layer/layer.js"></script>
   <script src="/js/tools.js?v=0.0.3"></script>
-  <script src="/js/json2go.js"></script>
+  <script src="/js/json2go.js?v=0.0.1"></script>
   <script>
     let input = new highlight(
       document.getElementById("input"), 

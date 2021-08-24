@@ -137,7 +137,7 @@ function json2go(json, typename, tagName="json", flatten=true) {
                 appender('"`\n');
             }
             indenter(--innerTabs);
-            appender("}");
+            appender("}\n");
         } else {
             append("struct {\n");
             ++tabs;
@@ -158,8 +158,12 @@ function json2go(json, typename, tagName="json", flatten=true) {
             indent(--tabs);
             append("}");
         }
-        if (flatten)
+        if (flatten){
+            if (depth == 1) {
+                append("\n")
+            }
             accumulator += stack.pop();
+        }
     }
     function indent(tabs) {
         for (let i = 0; i < tabs; i++)
