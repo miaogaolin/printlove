@@ -28,7 +28,7 @@ description: "学习 Go 语言中包的声明、导入、使用、和包之间�
 
 创建一个 `gobasic` 的项目目录，总共包含三个部分：入口文件、gomod、自定义两个包。
 
-![](../images/11-1.png)
+![](https://printlove.cn/posts/gobasic/images/11-1.png)
 
 调用顺序：`main.go` >> `b.go` >> `a.go` 。
 
@@ -60,13 +60,14 @@ import "github.com/miaogaolin/gobasic/pkgA"
 
 文件开头声明了源文件所在包为 `pkgB` ，下来使用 `import` 关键字导入所依赖的包。如果导入的是当前项目中的包，引用路径的规则为 "go.mod" 文件中设置的 `module` 值与依赖包的目录路径拼接。
 
-我的项目 module 值为 github.com/miaogaolin/gobasic。
+我的项目 module 值为：
+github.com/miaogaolin/gobasic
 
 导入之后，就可以使用**“包名+点”**访问包内的变量、常量、函数、结构体、接口。
 
 ### 1. 多包导入
 
-如果有多个引用时，有两种方式，第二种为常见方式。
+如果有多个包需要导入时，有两种方式，第二种为常见方式。
 
 ```go
 // 第一种
@@ -88,7 +89,6 @@ import (
 使用“点”导入的包，在调用包内的变量、常量、函数等等，就不需要写包名。
 
 例：
-
 ```go
 import . "fmt"
 
@@ -104,7 +104,6 @@ Println()
 给导入的包可以使用一个别名，这样如果导入的多个包时，名称一样出现冲突时，就可以取个别名。
 
 例：
-
 ```go
 import a "exmaple/pkgA"
 
@@ -117,7 +116,6 @@ a.Func1()
 在导入包时，如果该包没有被使用，那编译器就会报错。为了不让报错，可以使用匿名导入。那为何不直接删除呢？是因为想使用包内的 `init()` 函数，该函数在包被导入时自动调用。
 
 例：
-
 ```go
 import _ "github.com/go-sql-driver/mysql"
 ```
@@ -128,10 +126,9 @@ import _ "github.com/go-sql-driver/mysql"
 
 了解了包的声明和引用后，下来看看源文件的完整组成结构。
 
-![](../images/11-2.png)
+![](https://printlove.cn/posts/gobasic/images/11-2.png)
 
 例：
-
 ```go
 // b.go
 package pkgB
@@ -163,7 +160,7 @@ func PrintName() {
 
 ### 1. 包的使用
 
-`pkgA.PrintName()`但这个访问有个前提，就是函数的命名首字母必须大写，如果是小写开头那只能在当前包内访问，而不能被其它包调用。
+`pkgA.PrintName()`这个访问有个前提，就是函数的命名首字母必须大写，如果是小写开头那只能在当前包内访问，而不能被其它包调用。
 
 例如， `b.go` 文件中的 `name` 变量就不能被其它包访问。如果想要访问，就需要改为 `Name` 。函数、结构体、接口、常量，也是一样的。
 
@@ -204,13 +201,14 @@ func main() {
         - internal
     - main.go
 
+
 在上例中，internal 目录的父级父级目录是 exmaple，那在 main.go 文件中就不能访问 internal 目录中的内容。
 
 ## 包的加载顺序
 
 这里我们从 main 包入口开始，main 包导入 pkg1，pkg1 导入 pkg2，pkg2 导入 pkg3。
 
-![](../images/11-3.png)
+![](https://printlove.cn/posts/gobasic/images/11-3.png)
 
 过程如下：
 
