@@ -5,11 +5,11 @@ draft: false
 categories: ["时事外刊"]
 description: "中国打击隐藏摄像机和秘密拍摄"
 ---
-# 导读
+## 导读
 
 继性侵、吸毒后，新闻又曝出警方在多部门集中治理摄像头偷窥等黑产。在已破获案例中显示，有不法分子将针孔摄像头暗藏在酒店客房内，再通过分享 APP 邀请码，使他人获得观看权。一般一个邀请码可卖到500~600元，而每个摄像头可生成 100 个邀请码，供百人同时在线观看。太阔怕了！！要知道，针孔摄像头的镜头直径只有 1.5mm，非常迷你，很难被发现。这种摄像头用于偷拍，可以藏于任何地方，可以说防不胜防！所以让我们来一起看看 SIXTH TONE 关于中国打击偷拍产业的报道吧。
 
-# 正文
+## 正文
 
 > 先来一遍泛读
 
@@ -29,13 +29,13 @@ Fu Jian, a lawyer at Henan Yulong Law Firm, told Sixth Tone that people can be d
 
 **开始分段精读全文，总共 7 段......**
 
-# 标题
-## 1. 翻译
+## 标题
+### 1. 翻译
 China Cracks Down on Hidden Cameras and Clandestine Filming
 
 中国严厉打击隐藏摄像机和秘密拍摄
 
-## 2. 单词/短语
+### 2. 单词/短语
 
 * **crack down on sb/sth** 
 
@@ -50,13 +50,13 @@ China Cracks Down on Hidden Cameras and Clandestine Filming
 
 上文的 Clandestine Filming 是秘密拍摄的意思。
 
-# 第 1 段
-## 1. 翻译
+## 第 1 段
+### 1. 翻译
 While China’s **surveillance** cameras have been **touted** as ensuring public safety, hidden cameras and secret filming have proven a **nuisance** across various **sectors**. Now, authorities are going after them.
 
 虽然中国的监控摄像头被吹捧可以确保公共安全，但隐藏摄像头和秘密拍摄已被证明是各行各业的麻烦事。现在，当局正在追捕他们。
 
-## 2. 单词/短语
+### 2. 单词/短语
 * **sur·veil·lance**   /sɜːˈveɪləns /   noun [U]
 
 牛津高阶解释 the act of carefully watching a person suspected of a crime or a place where a crime may be committed （对犯罪嫌疑人或可能发生犯罪的地方的）监视
@@ -90,16 +90,16 @@ a part of an area of activity, especially of a country's economy （尤指一国
 
 文章中的 various sectors 就表示各行各业，sector 还有个意思是扇形，需要了解一下。
 
-# 第 2 段
+## 第 2 段
 
-## 1. 翻译
+### 1. 翻译
 **The Cyberspace Administration** of China said it has been “managing” the illegal practice since May following **a spate of** public outcries about the issue, according to a statement Monday. The internet **watchdog** said police have arrested 59 people in relation to clandestine filming operations and seized 25,000 illegal webcams nationwide, while authorities have taken action against over 5,000 online businesses involved in such activities.
 
 根据周一的一份声明，中国网信办表示，自 5 月以来，在公众对该问题的一系列强烈抗议后，它一直在“管理”这种非法行为。互联网监管机构表示，警方已在全国范围内逮捕了 59 名与秘密拍摄活动有关的人，并查获了 25,000 个非法网络摄像头，并且当局已对参与此类活动的 5,000 多家在线企业采取了行动。
 
 The Cyberspace Administration  国家互联网信息办公室，简称网信办
 
-## 2. 单词/短语
+### 2. 单词/短语
 * **spate**      /speɪt/   noun
 
 ① of sth a large number of things, which are usually unpleasant, that happen suddenly within a short period of time    指一连串，接二连三（通常指不愉快的事物），文章中 a spate of public outcries 表示一系列强烈抗议。
@@ -120,26 +120,26 @@ a person or group of people whose job is to check that companies are not doing a
 
 在文章中 internet watchdog 表示互联网监管机构，这个单词可好记了，看门狗嘛哈哈哈哈，起到看门监督的作用。
 
-# 第 3 段
+## 第 3 段
 
-## 1. 翻译
+### 1. 翻译
 Authorities said **voyeurism** and the secret filming of others are illegal and violate privacy, according to the statement.
 
 声明称，当局表示偷窥和秘密拍摄他人是非法的，侵犯了隐私。
 
-## 2. 单词
+### 2. 单词
 
 **voy·eur·ism**     /vwaɪˈɜːrɪzəm/     noun [U]  窥探，偷窥
 
-# 第 4 段
+## 第 4 段
 
-## 1. 翻译
+### 1. 翻译
 
 In recent years, several **high-profile** cases involving hidden cameras in hotel rooms and fitting rooms have **drawn public criticism**. Some business owners were found to be profiting from secretly filmed footage by selling videos online or giving access to hidden webcams for others to stream from.
 
 近年来，多起涉及酒店客房和试衣间隐藏摄像头的备受瞩目的案件引起了公众的批评。一些企业主被发现通过在线销售视频或允许其他人访问隐藏的网络摄像头以从秘密拍摄的镜头中获利。
 
-## 2. 单词/短语
+### 2. 单词/短语
 
 * **high-profile**
 
@@ -158,13 +158,13 @@ This issue has had a high profile in recent months.
 
 这里的 draw 是熟词偏义，表示to produce a reaction or response 产生，引起，激起（反应或回应）sth。
 
-# 第 5 段
-## 1. 翻译
+## 第 5 段
+### 1. 翻译
 Such cameras, which can be as small as a coin, are often **disguised** and **affixed to** home appliances such as a clock, and are sold on major ecommerce platforms. As of Wednesday, the keyword “hidden camera” was **censored** on Taobao, however, similar products can still be found by using other keywords.
 
 这种可以像硬币一样小的相机，经常被伪装并贴在钟表等家用电器上，并在各大电商平台上销售。截至周三，淘宝上的关键词“隐藏相机”已被屏蔽，但使用其他关键词仍然可以找到类似产品。
 
-## 2. 单词/短语
+### 2. 单词/短语
 * **dis·guise**    /dɪsˈɡaɪz/     verb
 
 这里的意思是 sth to hide sth or change it, so that it cannot be recognized 掩蔽；掩饰（某事，某物）
@@ -190,14 +190,14 @@ Such cameras, which can be as small as a coin, are often **disguised** and **aff
 
 例句：The news reports had been heavily censored.     这些新闻报道已被大肆删剪。
 
-# 第 6 段
+## 第 6 段
 
-## 1. 翻译
+### 1. 翻译
 Fu Jian, a lawyer at Henan Yulong Law Firm, told Sixth Tone that people can be **detained** for five to 10 days for secretly filming others according to the law, while those selling such videos or sharing them online could face **criminal charges**. If found guilty of violating privacy-related laws, **perpetrators** may receive jail terms of up to seven years, while those who film or sell “**obscene**” content could face **life imprisonment**.
 
 河南玉龙律师事务所律师付健告诉Sixth Tone，偷拍他人的，依法可以处以5至10天的拘留，而出售或在网上分享此类视频的人可能面临刑事指控。如果被判违反与隐私相关的法律，肇事者可能会被判处最高七年的监禁，而拍摄或出售“淫秽”内容的人可能会面临终身监禁。
 
-## 2. 单词/短语
+### 2. 单词/短语
 
 * **de·tain**     /dɪˈteɪn/     verb
 
@@ -235,20 +235,20 @@ I'm sorry — he'll be late; he's been detained at a meeting.
 * **life imprisonment**  终身监禁，无期徒刑
 
 
-# 第 7 段
+## 第 7 段
 
-## 1. 翻译
+### 1. 翻译
 
 “To really curb this illegal industry, it’s important to introduce stricter punishments and reduce the illegal profit,” Fu said.
 
 “要真正遏制这个非法行业，重要的是要采取更严厉的惩罚措施，减少非法利润，”傅说。
 
-## 2. 单词
+### 2. 单词
 **curb** 作动词的意思是控制，限制，比如控制脾气可以用 curb one's temper, 抑制通货膨胀可以用 curb inflation。
 
 作名词是后常跟介词 on， 表示对什么起限制作用的事物，如 curbs on government spending，意思是对政府开支的限制措施。
 
-# 总结
+## 总结
 
 外刊精读七步骤
 
