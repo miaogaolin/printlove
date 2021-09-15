@@ -143,7 +143,7 @@ fmt.Println((*p).Name)
 
 ### 方法
 
-在[上篇文章](https://mp.weixin.qq.com/s/qvG621laIKxAPvspouZXZA)中已经接触到了指针接收者的概念，这块简单说明以下，详细的请看看[《自定义类型和结构体 - 方法》](https://mp.weixin.qq.com/s/qvG621laIKxAPvspouZXZA)。
+在[上篇文章](https://mp.weixin.qq.com/s/qvG621laIKxAPvspouZXZA)中已经接触到了指针接收者的概念，这块简单说明一下，详细的请看看[《自定义类型和结构体 - 方法》](https://mp.weixin.qq.com/s/qvG621laIKxAPvspouZXZA)。
 
 如果通过方法想修改结构体中的字段时，可以将接收者设置为指针类型。
 
