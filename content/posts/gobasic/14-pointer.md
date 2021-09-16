@@ -220,12 +220,6 @@ map[china:中国]
 
 ### 2. 切片
 
-```
-func AppendAnimalsPointer(animals *[]string) {
-   *animals = append(*animals, "老虎", "大象")
-}
-```
-
 在了解[《内置集合 - 切片》](https://mp.weixin.qq.com/s/DQ76zYtBhswj4ARB0LbQAw)这篇文章后应该明白切片的底层引用的是数组，在切片传递时不会改变底层数组的引用，但如果对切片进行追加操作后，数组引用就会改变。
 
 ```go
@@ -246,7 +240,7 @@ func main() {
 [猴子]
 ```
 
-`UpdateAnimals`函数修改了切片，但变量 `input` 变量的值不受影响，因为 `append` 操作后底层数组会进行拷贝并改变引用。
+`AppendAnimals`函数给切片追加元素，但外部的变量 `input` 的值不受影响，因为 `append` 操作后底层数组会进行拷贝并改变引用。
 
 如果在函数内想影响 `input` 变量，就使用指针解决。
 
