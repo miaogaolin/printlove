@@ -24,16 +24,15 @@ draft: false
 提取码：0q4j
 
 
-### 2. The Go Programming Language
+### 2. Go 语言圣经/The Go Programming Language
 
-中文名：《Go 语言圣经》英文版
 
-自己 Go 开发工作了几年，也从未看过这本书，借此也看看，顺便也锻炼下自己的英文。
+自己 Go 开发工作了几年，也从未看过这本书，最近在写 Go 基础系列，参考下该作者如何写。
 
 链接：[https://pan.baidu.com/s/133u5o009HjwbdDjgdT0M-g](https://pan.baidu.com/s/133u5o009HjwbdDjgdT0M-g)
 提取码：aufh
 
-为了读书体验感好，我建议下载 epub 格式，使用微信读书导入。
+中文和英文都有。
 
 
 
