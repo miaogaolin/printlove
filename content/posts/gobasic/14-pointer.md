@@ -1,5 +1,5 @@
 ---
-title: "Go基础系列：14. 指针类型 "
+title: "Go基础系列：14. 指针类型"
 date: 2021-09-15T18:24:56+08:00
 draft: false
 categories: ["Go基础系列"]
