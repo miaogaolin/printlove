@@ -1,7 +1,7 @@
 name = "潇洒哥 - 老苗"
 # avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
 avatar = "images/laomiao.jpg"
-bio = "Go基础系列、从0开发微服务（后续）、杂七杂八。"
+bio = "Gopher、英语、思考、持续学习。"
 # company = "Null"
 location = "西安"
 # about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
