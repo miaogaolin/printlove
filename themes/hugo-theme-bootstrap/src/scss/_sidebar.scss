@@ -2,8 +2,15 @@
   margin-top: 1rem !important;
 }
 
-.sidebar ul {
-  padding-left: 2rem!important;
+.sidebar {
+  ul {
+    padding-left: 2rem!important;
+  }
+
+  .container {
+    padding-left: $aside-padding;
+    padding-right: $aside-padding;
+  }
 }
 
 .sidebar ul li,

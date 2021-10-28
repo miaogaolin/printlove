@@ -90,11 +90,9 @@ ul {
 
 .surface {
   background-color: var(--hbs-surface);
-  border-radius: .25rem;
-  box-shadow: 0 .5rem 1rem var(--hbs-shadow);
   color: var(--hbs-on-surface);
-  margin-bottom: 2rem;
   padding: 1rem;
+  border-bottom: 1px solid var(--hbs-shadow);
 }
 
 .list-group-item.active {
@@ -123,3 +121,4 @@ pre {
   padding-left: $content-padding;
   padding-right: $content-padding;
 }
+
