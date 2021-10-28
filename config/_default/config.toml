@@ -27,8 +27,8 @@ enableEmoji = true
   hrefTargetBlank = true
 
 [outputs]
-  # home = ["HTML", "RSS", "JSON"]
-  home = ["HTML","JSON"]
+  home = ["HTML", "RSS", "JSON"]
+  # home = ["HTML","JSON"]
 
 [taxonomies]
   category = "categories"

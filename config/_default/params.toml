@@ -28,7 +28,7 @@ googleAdsense = ""
 # toc = false # Disable TOC globally.
 breadcrumb = false # Disable breadcrumb
 
-poweredBy = false # Whether to show powered by.
+poweredBy = true # Whether to show powered by.
 
 # featuredPostCount = 10 # The number of featured posts shown in sidebar.
 # recentPostCount = 10 # The number of recent posts shown in sidebar.
