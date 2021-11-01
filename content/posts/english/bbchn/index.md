@@ -10,14 +10,14 @@ description: "看BBC对河南洪灾的报道学英语"
 我摘录了一些 BBC 报道的标题截图，带大家从这些标题中学几个哇塞的单词。
 
 ### 1. evacuate
-![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
+![](1.jpg)
 
 "v. to move people from a place of danger to a safer place",（把人从危险的地方）疏散，转移，撤离
 
 **短语结构**：evacuate sb from ...
 
 ### 2. sweep down
-![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
+![](2.jpg)
 
 席卷；突袭；吹倒
 
@@ -25,12 +25,12 @@ description: "看BBC对河南洪灾的报道学英语"
 
 
 ### 3. flood terror
-![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
+![](3.jpg)
 
 **terror** 是名词，可理解为恐怖的事。直译为中国洪水恐怖事件，不太符合中文的语言习惯。再来看 as 后面的内容，火车车厢被淹没，这是“中国洪水恐怖事件”的结果，“洪水恐怖事件”导致“车厢被淹”，所以这里可以意译为“中国洪水泛滥，火车车厢被淹没”。
 
 ### 4. chest-high
-![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
+![](4.jpg)
 **chest-high** 是名词+形容词组成的复合形容词，意思是“齐胸的”，这样的复合形容词还有很多，如:
 * ice-cold 冰冷的  
 * life-long 终生的  
@@ -55,7 +55,7 @@ description: "看BBC对河南洪灾的报道学英语"
 
 ## 接下来看看一篇文章
 
-![](https://img2.baidu.com/it/u=4255025477,4024180354&fm=11&fmt=auto&gp=0.jpg)
+![](5.jpg)
 这篇文章是讲中国人们团结一致运用微博来帮助河南受灾群众，看看BBC是如何报道的。
 
 > 准备好你的脑细胞，开始...
