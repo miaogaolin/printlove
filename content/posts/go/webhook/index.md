@@ -22,7 +22,7 @@ Github  Webhook(钩子) 说简单点，就是当你的项目触发了某个动�
 打开后配置三项数据：
 
 1. Payload URL：自己服务的 API 接口地址，用来接受 github 的通知。
-2. Content type：选择 application/json，标示使用 json 数据通知。
+2. Content type：选择 application/json，表示使用 json 数据通知。
 3. Secret：密钥，用来防止 API 接口地址被他人访问。
 
 ## 安装
