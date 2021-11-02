@@ -1,5 +1,5 @@
 ---
-title: "使用 Go 语言实现 Github 钩子的网站自动部署"
+title: "我用 Go 语言解决 Github Webhook"
 date: 2021-11-01T17:51:00+08:00
 draft: false
 categories: ["Go经验"]
@@ -7,7 +7,7 @@ tags: ["Github"]
 description: "使用 webhook 工具快速完成 Github 钩子的配置"
 ---
 
-Github 钩子说简单点，就是当你的项目触发了某个动作时，例如 `git push` 时，可以通知给一个线上可访问的地址。
+Github  Webhook(钩子) 说简单点，就是当你的项目触发了某个动作时，例如 `git push` 时，可以通知给一个线上可访问的地址。
 
 这块我接收通知用来自动更新我服务器上的网站，不用再自己登录服务器更新。
 
@@ -59,7 +59,7 @@ go get github.com/miaogaolin/webhook
 - script：需要执行的脚本，这个一会咱自己写。
 - secret：上面截图中填写的密钥。
 
-下来再自己项目下写一个 deploy.sh 脚本，用来自动更新网站的代码，这块你根据自己的实际情况写。
+下来在自己项目下写一个 deploy.sh 脚本，用来自动更新网站的代码，这块你根据自己的实际情况写。
 
 ```bash
 #!/bin/bash
