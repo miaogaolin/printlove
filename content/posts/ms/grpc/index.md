@@ -48,9 +48,9 @@ Protobuf (Protocol buffers) 和 Go 都是一个亲妈，来自于 Google。它�
 
 **JSON**
 
-```protobuf
+```JSON
 {
-	"name": "laomiao",
+  "name": "laomiao",
   "id": 1,
   "email": "2825873215@qq.com"
 }
@@ -283,6 +283,6 @@ $ go run main.go
 
 ## 参考
 
-1. grpc 官网：[https://grpc.io/docs/languages/go/quickstart/](https://grpc.io/docs/languages/go/quickstart/)
-2. gRPC 应用：[https://segmentfault.com/a/1190000019608421](https://segmentfault.com/a/1190000019608421)
-3. grpc 超时限制：[https://www.cnblogs.com/jiujuan/p/13499915.html](https://www.cnblogs.com/jiujuan/p/13499915.html)
+* gPRC 官网：[https://grpc.io/docs/languages/go/quickstart/](https://grpc.io/docs/languages/go/quickstart/)
+* gRPC 应用：[https://segmentfault.com/a/1190000019608421](https://segmentfault.com/a/1190000019608421)
+* gRPC 超时限制：[https://www.cnblogs.com/jiujuan/p/13499915.html](https://www.cnblogs.com/jiujuan/p/13499915.html)
