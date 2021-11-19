@@ -44,9 +44,9 @@ laomiao18
 
 假设，该 "结构" 如下，这不是真实存在的，只是为了方便给大家描述。
 
-```json
+```go
 {
-	name string 7
+  name string 7
   age int 1
 }
 ```
