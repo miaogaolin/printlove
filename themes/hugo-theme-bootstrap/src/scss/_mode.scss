@@ -1,5 +1,5 @@
 @mixin mode-light {
-  --hbs-background: #{$gray-200};
+  --hbs-background: #f0f2f5;
   --hbs-on-background: var(--bs-dark);
   --hbs-surface: #{$white};
   --hbs-on-surface: var(--bs-dark);

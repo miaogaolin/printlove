@@ -4,7 +4,7 @@
     <img class="profile-avatar img-fluid" src="{{ absURL (default "images/profile.webp" .avatar) }}" alt="{{ .name }}" loading="lazy">
   </div>
   <div class="col-xl-8">
-    <h5 class="profile-name my-2">{{ .name }}</h5>
+    <h6 class="profile-name my-2">{{ .name }}</h6>
     {{- with .bio -}}
     <div class="profile-bio mb-2">{{ . }}</div>
     {{- end -}}
