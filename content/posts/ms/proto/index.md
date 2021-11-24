@@ -122,13 +122,13 @@ message HelloRequest {
 
 将这两个信息按照如下公式组装：
 
-```plain text
+```plaintext
 (field_number << 3) | wire_type
 ```
 
 带入得：
 
-```plain text
+```plaintext
 (2 << 3) | 0 
 → 16
 ```
@@ -136,7 +136,8 @@ message HelloRequest {
 ### 2. Varint
 
 对于 num 字段保存的数据如何如何压缩？假如 num 存储的数据为 300。按照 4 字节存储如下：
-```plain text
+
+```plaintext
 00000000 00000000 00000001 00101100
 ```
 
@@ -154,7 +155,8 @@ message HelloRequest {
 
 将数据 300 带入该算法，过程如下：
 
-```plain text
+
+```plaintext
 300: 00000000 00000000 00000001 00101100
 → 7 位分割：0000 0000000 0000000 0000010 0101100
 → 颠倒顺序：0101100 0000010 0000000 0000
@@ -166,7 +168,7 @@ message HelloRequest {
 
 最终，对于 `int32 num = 2` 结构和数据 300，压缩后的结果为：
 
-```plain text
+```plaintext
 16 172 2
 ```
 
@@ -178,7 +180,7 @@ message HelloRequest {
 
 假如，name 的值为 "miao"，最终结果为：
 
-```plain text
+```plaintext
 10 4 109 105 97 111
 ```
 
@@ -192,7 +194,7 @@ message HelloRequest {
 
 例如，`repeated int32 hobbies= 4` ，假设 hobbies 数据为 `[10, 20]`，最终结果为：
 
-```plain text
+```plaintext
 34 2 10 20
 ```
 
@@ -202,7 +204,7 @@ message HelloRequest {
 
 假如，`float height = 3` ，该类型对应的 "wire type" 为 5，数据假设为 52.1，最终结果为：
 
-```plain text
+```plaintext
 29 102 102 80 66
 ```
 
