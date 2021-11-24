@@ -45,9 +45,9 @@
 </div>
 <script type="text/html" id="templateResult">
   <div class="search-result surface row" id="{{ print "{{id}}" }}">
-    <h3 class="search-result-title mb-2">
+    <h5 class="search-result-title mb-2">
       <a {{ printf "href={{permalink}}" | safeHTMLAttr }}>{{ print "{{title}}" }}</a>
-    </h3>
+    </h5>
     <div class="search-result-taxonomies mb-3">
       <span class="search-result-score search-result-taxonomy">
         <span {{ printf "style=\"%s\"" "width: {{{score}}}%" | safeHTMLAttr }}></span>
