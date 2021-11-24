@@ -103,8 +103,8 @@ customJS = [
 [share]
   # addThis = "ra-60bcc43f59f2d04f" # AddThis pubid.
 
-[fontSize] # Comment or remove this settings to disable font size switcher.
-  # extraSmall = ".8rem"
-  # small = ".9rem"
-  # large = "1.1rem"
-  # extraLarge = "1.2rem"
+# [fontSize] # Comment or remove this settings to disable font size switcher.
+#   extraSmall = ".8rem"
+#   small = ".9rem"
+#   large = "1.1rem"
+#   extraLarge = "1.2rem"
