@@ -174,7 +174,7 @@ message HelloRequest {
 
 ### 3. Length-delimited
 
-现在说说 `string name = 1` ，该类型对应的 "wire type" 为 2，"field number" 为 2。记录 “顺序” 和 “类型” 方式和上面讲的一样。
+现在说说 `string name = 1` ，该类型对应的 "wire type" 为 2，"field number" 为 1。记录 “顺序” 和 “类型” 方式和上面讲的一样。
 
 重点说说数据如何记录，相比 Varint 算法，该类型就简单多了，只需要使用 Varint 算法记录数据的字节长度。
 
@@ -186,7 +186,7 @@ message HelloRequest {
 
 解释：
 
-- 10：`(2 << 3) | 2` 。
+- 10：`(1 << 3) | 2` 。
 - 4：字符串长度。
 - 之后：按照 "UTF-8" 编码保存。
 
