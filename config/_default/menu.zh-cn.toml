@@ -1,4 +1,7 @@
 [[main]]
+  name = "关于我"
+  url = "/posts/me"
+[[main]]
   name = "在线工具"
   identifier = "dropdown"
 [[main]]
