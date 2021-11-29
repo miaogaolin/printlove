@@ -1,7 +1,4 @@
 [[main]]
-  name = "免费资源"
-  url = "/posts/books/toc/"
-[[main]]
   name = "在线工具"
   identifier = "dropdown"
 [[main]]
