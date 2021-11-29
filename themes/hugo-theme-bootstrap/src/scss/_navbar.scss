@@ -69,6 +69,11 @@ $bgNavbarTogglerIcon: url("/images/icons/menu.png");
   &.active {
     color: #fff;
     background-color: var(--hbs-accent);
+    font-size: 1em;
+  }
+  & {
+    font-size: 95%;
   }
 }
+
 

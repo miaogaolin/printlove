@@ -5,9 +5,11 @@ date: 2021-08-18T11:53:56+08:00
 type: ext
 layout: tools
 ---
-{{< navmain `/tools/sql2es` >}}
 {{< html >}}
-  <div class="row"> 
+  <div class="row">
+    <div class="col-lg-1 nav-container">
+      {{< navmain `/tools/sql2es` >}}
+    </div>
     <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(convert,1)"> 
       <label class="col-form-label"> SQL </label> 
       <div id="input" class="t-textarea fullHeight fixed-size"></div> 
@@ -17,7 +19,7 @@ layout: tools
       <button class="btn btn-default" data-clipboard-action="copy" id="btnCopy"> 复制 </button>
       <button class="btn btn-default" id="btnClear"> 清空 </button>
     </div> 
-    <div class="t-editarea col-lg-6 col-md-12"> 
+    <div class="t-editarea col-lg-5 col-md-12"> 
       <label class="col-form-label"> ElasticSearch DSL </label> 
       <div class="t-textarea fullHeight fixed-size" id="output"></div> 
     </div>

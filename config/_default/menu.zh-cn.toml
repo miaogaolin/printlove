@@ -30,5 +30,5 @@
   url = "/tools/xml2json"
 [[main]]
   parent = "dropdown"
-  name = "SQL转ElasticSearch"
+  name = "SQL转ES"
   url = "/tools/sql2es"

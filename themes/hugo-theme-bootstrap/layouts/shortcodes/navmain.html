@@ -1,9 +1,9 @@
 {{- $currentPage := absLangURL (.Get 0) -}}
 {{- range .Site.Menus.main -}}
     {{- if .HasChildren -}}
-    <div class="navbar-surface clearfix">
+    <div class="navbar-surface d-none d-lg-block d-xl-block d-xxl-block">
         {{- range .Children -}}
-        <a class="{{ if eq $currentPage (absLangURL .URL) }}active{{ end }} d-block float-start p-2" href="{{ absLangURL .URL }}">{{- .Name -}}</a>
+        <a class="{{ if eq $currentPage (absLangURL .URL) }}active{{ end }} d-block p-2" href="{{ absLangURL .URL }}">{{- .Name -}}</a>
         {{- end -}}
     </div>
     {{- end -}}

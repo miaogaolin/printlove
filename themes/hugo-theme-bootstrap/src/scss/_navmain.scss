@@ -1,12 +1,25 @@
-.navbar-surface {
-    background-color: var(--hbs-surface);
-    color: var(--hbs-secondary-text);
-    margin-top: -20px;
-    a.active {
-        color: var(--hbs-on-surface)!important;
-    }
+.tool-container {
+    .navbar-surface {
+        background-color: var(--hbs-surface);
+        color: var(--hbs-secondary-text);
+        margin-top: 38px;
+        a.active {
+            color: var(--hbs-on-surface)!important;
+        }
 
-    a:not(.active):hover {
-        color: var(--hbs-on-surface);
+        a:not(.active):hover {
+            color: var(--hbs-on-surface);
+        }
+    }
+    .nav-container {
+        padding-right: 0;
+        font-size: 15px;
+    }
+    .t-editarea {
+        font-size: 15px;
+        line-height: 1.6!important;
+    }
+    &>p {
+        display: none;
     }
 }
