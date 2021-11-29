@@ -21,11 +21,13 @@ layout: tools
       <button class="btn btn-default" data-clipboard-action="copy" id="btnCopy"> 复制 </button>
       <button class="btn btn-default" id="btnClear"> 清空 </button>
     </div> 
-    <div class="t-editarea col-lg-5 col-md-12"> 
-      <label class="col-form-label"> GO </label> 
-      <div class="float-end align-items-end">
-        <label class="col-form-label">Tag：</label>
-        <input type="text" class="form-control float-end" value="json" id="tag" style="width:80px;">
+    <div class="t-editarea col-lg-5 col-md-12">
+      <div>
+         <label class="col-form-label"> GO </label> 
+        <div class="float-end align-items-end">
+          <label class="col-form-label">Tag：</label>
+          <input type="text" class="form-control float-end" value="json" id="tag" style="width:80px;height:100%;">
+        </div>
       </div>
       <div class="t-textarea fullHeight fixed-size" id="output"></div> 
     </div> 

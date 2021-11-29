@@ -15,9 +15,9 @@
         padding-right: 0;
         font-size: 15px;
     }
-    .t-editarea {
+    .t-editarea *{
         font-size: 15px;
-        line-height: 1.6!important;
+        line-height: 1.6;
     }
     &>p {
         display: none;
