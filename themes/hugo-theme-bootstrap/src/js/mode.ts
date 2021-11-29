@@ -76,7 +76,6 @@ class ModeSwitcher {
     const clone = comments.cloneNode(false);
     clone.appendChild(js);
     comments.parentNode.replaceChild(clone, comments);
-    console.log("post", mode);
   }
 }
 
