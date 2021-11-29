@@ -39,9 +39,9 @@ tagCount = 30 # The number of tags shown in sidebar.
 
 # Custom CSS and JS
 customCSS = [
-  "/codemirror/lib/codemirror.css", 
-  "/codemirror/theme/nord.css",
-  "/css/tools.css"
+  "/codemirror/lib/codemirror.css",
+  "/codemirror/addon/scroll/simplescrollbars.css",
+  "/codemirror/theme/monokai.css"
 ]
 customJS = [
   "/codemirror/lib/codemirror.js",
@@ -49,7 +49,8 @@ customJS = [
   "/codemirror/mode/go/go.js",
   "/codemirror/mode/javascript/javascript.js",
   "/codemirror/mode/yaml/yaml.js",
-  "/codemirror/mode/xml/xml.js"
+  "/codemirror/mode/xml/xml.js",
+  "/codemirror/addon/scroll/simplescrollbars.js"
 ]
 
 # tocWordCount = 280 # TOC is displayed only if the post's word count exceeds this value.

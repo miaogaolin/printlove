@@ -7,21 +7,18 @@ type: ext
 layout: tools
 ---
 {{< html >}}
+  <div class="t-btn d-flex justify-content-center">
+    <button class="btn"  id="btnExpan"> 转换-展开 </button>
+    <button class="btn"  id="btnNest"> 转换-嵌套 </button>
+    <button class="btn btn-default" data-clipboard-action="copy" id="btnCopy"> 复制 </button>
+    <button class="btn btn-default" id="btnClear"> 清空 </button>
+  </div> 
   <div class="row">
-    <div class="col-lg-1 nav-container">
-      {{< navmain `/tools/json2go` >}}
-    </div>
-    <div class="t-editarea col-lg-5 col-md-12" onpaste="setTimeout(pasteConvert,1)"> 
+    <div class="t-editarea col-lg-6 col-md-12" onpaste="setTimeout(pasteConvert,1)"> 
       <label class="col-form-label"> JSON </label>
       <div id="input" class="t-textarea fullHeight fixed-size"></div> 
     </div> 
-    <div class="t-btn col-lg-1 col-md-12">
-      <button class="btn"  id="btnExpan"> 转换-展开 </button>
-      <button class="btn"  id="btnNest"> 转换-嵌套 </button>
-      <button class="btn btn-default" data-clipboard-action="copy" id="btnCopy"> 复制 </button>
-      <button class="btn btn-default" id="btnClear"> 清空 </button>
-    </div> 
-    <div class="t-editarea col-lg-5 col-md-12">
+    <div class="t-editarea col-lg-6 col-md-12">
       <div>
          <label class="col-form-label"> GO </label> 
         <div class="float-end align-items-end">

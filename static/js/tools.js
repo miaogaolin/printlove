@@ -71,7 +71,7 @@ new ClipboardJS('.btn').on('success', function() {
 function highlight(ele, lang, value) {
     this.key = "hbs-mode"
     this.lightTheme = "default"
-    this.darkTheme = "nord"
+    this.darkTheme = "monokai"
     this.currentTheme = this.lightTheme
     this.mode = lang
     this.lineNumbers = true
@@ -88,7 +88,8 @@ function highlight(ele, lang, value) {
             value: this.value,
             mode:  this.mode,
             theme: this.currentTheme,
-            lineNumbers:this.lineNumbers
+            lineNumbers:this.lineNumbers,
+            scrollbarStyle: "simple"
         })
     }
     this.change = function(callback) {
