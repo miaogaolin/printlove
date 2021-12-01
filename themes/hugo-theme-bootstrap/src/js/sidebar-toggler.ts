@@ -32,18 +32,18 @@ class SidebarToggler {
     }
 
     isShown() {
-        return this.main.classList.contains('col-lg-9')
+        return this.main.classList.contains('col-lg-7')
     }
 
     hide() {
-        this.main.classList.replace('col-lg-9', 'col-lg-12')
+        this.main.classList.replace('col-lg-7', 'col-lg-10')
         this.sidebar.classList.add('d-none')
         this.btn.classList.replace('fa-expand-alt', 'fa-compress-alt')
         localStorage.setItem(this.key, 'hide')
     }
 
     show() {
-        this.main.classList.replace('col-lg-12', 'col-lg-9')
+        this.main.classList.replace('col-lg-10', 'col-lg-7')
         this.sidebar.classList.remove('d-none')
         this.btn.classList.replace('fa-compress-alt', 'fa-expand-alt')
         localStorage.removeItem(this.key)

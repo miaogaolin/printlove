@@ -1,7 +1,7 @@
 {{ define "content" }}
 {{- $pages := where .Site.RegularPages "Type" "in" (default (slice "posts") .Site.Params.mainSections) -}}
 {{- $paginator := .Paginate $pages.ByDate.Reverse (default 100 .Site.Params.archive.paginate) -}}
-<div class="container archives col-12 mb-4">
+<div class="container archives col-lg-9 offset-lg-1">
   <div class="container">
     {{- partial "breadcrumb" . -}}
     {{- $count := len $paginator.Pages -}}

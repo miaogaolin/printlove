@@ -10,6 +10,7 @@
   {{- partial "hooks/list-begin" . -}}
   <div class="posts mb-4">
   {{- range $pages -}}
+    {{- if not .Params.notshow -}}
     <article class="post row surface">
       {{- if .Params.Images -}}
       <div class="post-thumbnail col-md-3 d-flex align-items-center justify-content-center">
@@ -24,6 +25,7 @@
         </div>
       </div>
     </article>
+    {{- end -}}
   {{- end -}}
   </div>
   {{- partial "hooks/list-end" . -}}

@@ -26,10 +26,11 @@
 index.md 文件开头必须填写如下信息:
 * title 文章标题
 * date 时间
-* draft 是否草稿，发布时填写为 false
+* draft 是否草稿，发布时填写为 false，如果为 true，则不可访问
 * categories 分类
 * tags 标签
 * description 文章描述
+* notshow 为 true 则不显示在列表，但可以通过链接访问
 
 举例如下：
 ```
