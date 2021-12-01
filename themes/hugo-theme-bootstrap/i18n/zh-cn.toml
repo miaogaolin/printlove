@@ -102,3 +102,6 @@ other = "标签"
 
 [wechat]
 other = "微信"
+
+[wx_sub_account]
+other = "公众号"

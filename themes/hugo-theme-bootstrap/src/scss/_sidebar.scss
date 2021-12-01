@@ -11,9 +11,17 @@
     padding-left: $aside-padding;
     padding-right: $aside-padding;
   }
+
+  .wx-sub-account {
+    text-align: center;
+    img {
+      width: 80%;
+    }
+  }
 }
 
 .sidebar ul li,
 .post-taxonomy {
   color: var(--hbs-secondary-text);
 }
+
