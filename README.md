@@ -6,11 +6,11 @@
 * docker：docker 相关文章
 * english：英语相关文章
 * go：Golang 零碎知识点
-* gobasic：《Go基础系列》
+* gobasic：[《Go基础系列》](https://printlove.cn/categories/go%E5%9F%BA%E7%A1%80%E7%B3%BB%E5%88%97/)
 * linux：Linux 相关文章
 * tool：工具使用分享，例如：编辑器
 * web：前端
-* ms：《深入微服务》系列文章
+* ms：[《深入微服务》](https://printlove.cn/categories/%E6%B7%B1%E5%85%A5%E5%BE%AE%E6%9C%8D%E5%8A%A1/)系列文章
 
 
 # 文章编写
