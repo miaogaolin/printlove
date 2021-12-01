@@ -12,7 +12,6 @@
 * web：前端
 * ms：[《深入微服务》](https://printlove.cn/categories/%E6%B7%B1%E5%85%A5%E5%BE%AE%E6%9C%8D%E5%8A%A1/)系列文章
 * me：关于我
-* guide：网站指南
 
 
 # 文章编写

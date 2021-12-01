@@ -72,7 +72,7 @@ customJS = [
   sogou = ""
   shenma = ""
 
-# [creativeCommons]
+[creativeCommons]
   by = true # Credit must be given to you, the creator.
   nc = true # Only noncommercial use of your work is permitted.
   nd = true # No derivatives or adaptations of your work are permitted.

@@ -46,11 +46,11 @@ other = "蓝绿色"
 [color_yellow]
 other = "黄色"
 
-# [copyright]
-# other = "版权"
+[copyright]
+other = "版权"
 
-# [post_license]
-# other = "本作品采用 {{ .license }} 授权。"
+[post_license]
+other = "本作品采用 {{ .license }} 授权，转载必须注明作者和本文链接。"
 
 [featured_posts]
 other = "精选文章"
