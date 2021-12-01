@@ -2,9 +2,10 @@
 title: "Go基础系列：12. 自定义类型和结构体 - 定义"
 date: 2021-09-07T18:30:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["Go", "结构体"]
 description: "自定义类型、结构体定义、匿名结构体、类型别名"
+series: ["Go基础系列"]
 ---
 
 ## 学到什么

@@ -2,9 +2,10 @@
 title: "Go基础系列：11. 包"
 date: 2021-09-01T17:35:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["Go"]
 description: "学习 Go 语言中包的声明、导入、使用、和包之间的加载顺序等等"
+series: ["Go基础系列"]
 ---
 
 ## 学到什么

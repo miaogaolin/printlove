@@ -2,9 +2,10 @@
 title: "Go基础系列：16. 错误与异常"
 date: 2021-09-29T10:10:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["Go","错误"]
 description: "创建错误、处理错误、捕捉异常、errors包的用法、defer延迟关键字"
+series: ["Go基础系列"]
 ---
 ## 学到什么
 

@@ -2,9 +2,10 @@
 title: "Go基础系列：15. 接口"
 date: 2021-09-18T17:51:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["Go","接口"]
 description: "什么是接口？如何定义接口？如何使用接口？如何嵌入接口？接口与接口之间如何赋值？如何推断接口的实际类型？如何使用空接口？"
+series: ["Go基础系列"]
 ---
 ## 学到什么
 

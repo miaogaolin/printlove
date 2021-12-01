@@ -2,9 +2,10 @@
 title: "深入微服务：3. Protobuf 为啥比 JSON、XML 牛？"
 date: 2021-11-19
 draft: false
-categories: ["深入微服务"]
+categories: ["Golang"]
 tags: ["Protobuf"]
 description: "Protobuf 的实现原理，并说明 JSON、XML 的不同支持"
+series: ["深入微服务"]
 ---
 
 大家好，我是 “潇洒哥老苗”。

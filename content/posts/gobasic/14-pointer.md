@@ -2,9 +2,10 @@
 title: "Go基础系列：14. 指针类型"
 date: 2021-09-15T18:24:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["Go","指针"]
 description: "什么是指针？什么什么是指针类型？如何使用和创建指针类型变量？如何从指针变量中取值？如何传递指针？"
+series: ["Go基础系列"]
 ---
 
 ## 学到什么

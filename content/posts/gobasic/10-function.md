@@ -2,9 +2,10 @@
 title: "Go基础系列：10. 函数"
 date: 2021-08-06T17:15:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["Go", "函数"]
 description: "一文搞懂 Go 语言中的函数，系统整理了 15 个内置函数"
+series: ["Go基础系列"]
 ---
 
 ## 学到什么

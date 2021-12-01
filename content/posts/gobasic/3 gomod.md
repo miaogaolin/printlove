@@ -2,10 +2,10 @@
 title: "Go基础系列：3. 环境搭建疑惑 - gomod学习"
 date: 2021-07-09T18:18:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["go", "gomod管理"]
 description: "gomod如何使用，不同配置的含义，gomod命令的作用"
-featured: false
+series: ["Go基础系列"]
 ---
 
 本篇是对大家在搭建环境时遇到的 gomod 问题产生的疑惑进行讲解。

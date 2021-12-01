@@ -3,9 +3,10 @@
 title: "Go基础系列：13. 自定义类型和结构体 - 方法 "
 date: 2021-09-10T11:30:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["Go","结构体"]
 description: "自定义类型和结构体如何携带方法？什么是值接收者？什么是指针接收者？等等等"
+series: ["Go基础系列"]
 ---
 
 ## 学到什么

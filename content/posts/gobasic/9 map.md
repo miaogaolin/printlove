@@ -2,9 +2,10 @@
 title: "Go基础系列：9. 内置集合 - map"
 date: 2021-07-16T17:21:56+08:00
 draft: false
-categories: ["Go基础系列"]
+categories: ["Golang"]
 tags: ["go", "map"]
 description: "go语言map的创建、遍历、删除键等知识讲解"
+series: ["Go基础系列"]
 ---
 
 ##  学到什么

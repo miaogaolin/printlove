@@ -2,7 +2,7 @@
 title: "我用 Go 语言解决 Github Webhook"
 date: 2021-11-01T17:51:00+08:00
 draft: false
-categories: ["Go经验"]
+categories: ["Golang"]
 tags: ["Github"]
 description: "使用 webhook 工具快速完成 Github 钩子的配置"
 ---
