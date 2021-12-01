@@ -15,7 +15,15 @@
 
 # 文章编写
 
-文章格式使用 Markdown 格式，在文章开头必须填写如下信息:
+例如，你想下一篇 Goroutine 的文章，就可以在 go 目录下创建如下：
+* go
+    * goroutine
+        * index.md
+        * 1.jpg
+
+如果有图片资源，直接放在 goroutine 目录下，index.md 是你编写的文章。引用图片时，使用相对路径。
+
+index.md 文件开头必须填写如下信息:
 * title 文章标题
 * date 时间
 * draft 是否草稿，发布时填写为 false
