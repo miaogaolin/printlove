@@ -62,17 +62,21 @@ $bgNavbarTogglerIcon: url("/images/icons/menu.png");
   }
 }
 
+.dropdown-menu {
+  background-color: var(--hbs-surface);
+}
+
 .dropdown-item {
   &:hover,
   &:focus,
   &:active,
   &.active {
-    color: #fff;
     background-color: var(--hbs-accent);
     font-size: 1em;
   }
   & {
     font-size: 95%;
+    color:  var(--hbs-on-surface);
   }
 }
 
