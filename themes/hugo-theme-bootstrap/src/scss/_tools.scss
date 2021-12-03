@@ -29,7 +29,7 @@
 
 .tool-info {
     background-color: var(--hbs-surface);
-    border-radius: .25rem;
+    border-radius: $block-radius;
     color: var(--hbs-on-surface);
     padding: 1rem;
     box-shadow: 0 .5rem 1rem var(--hbs-shadow);
