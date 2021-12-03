@@ -5,7 +5,6 @@ draft: false
 categories: ["工具"]
 tags: ["win11"]
 description: "win11 安装 Andriod 应用教程"
-images: ["https://gitee.com/hxl_xsj/resource/raw/master/images/下载.jpg"]
 ---
 Win11 现在可以支持安装 Andriod 应用了，它可以像 PC 端本地一样去启动、卸载的管理方式。
 
