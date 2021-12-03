@@ -26,6 +26,7 @@ class PaletteSwitcher extends Popover {
       const selected = instance.getPalette();
       document.querySelectorAll('.palette').forEach((element) => {
         const palette = element.getAttribute('id').replace('palette-', '');
+        element.classList.remove('active');
         if (palette === selected) {
           element.classList.add('active');
         }
@@ -52,7 +53,6 @@ class PaletteSwitcher extends Popover {
   }
 
   setPalette(palette: string) {
-    console.debug(`switch to palette: ${palette}`);
     document.body.classList.remove(`palette-${this.getPalette()}`);
     document.body.classList.add(`palette-${palette}`);
     localStorage.setItem(this.key, palette);
