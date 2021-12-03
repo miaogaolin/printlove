@@ -105,3 +105,9 @@ other = "微信"
 
 [wx_sub_account]
 other = "公众号"
+
+[prev_post]
+other = "上一篇："
+
+[next_post]
+other = "下一篇："

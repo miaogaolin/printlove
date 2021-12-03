@@ -1,7 +1,7 @@
 {{- with .Site.Author -}}
-<section class="profile surface row d-none d-sm-flex">
+<section class="profile surface row d-none d-sm-flex content-block">
   <div class="col-xl-4 d-flex none align-items-center justify-content-center">
-    <img class="profile-avatar img-fluid" src="{{ absURL (default "images/profile.webp" .avatar) }}" alt="{{ .name }}" loading="lazy">
+    <img class="profile-avatar img-fluid img-block" src="{{ absURL (default "images/profile.webp" .avatar) }}" alt="{{ .name }}" loading="lazy">
   </div>
   <div class="col-xl-8">
     <h6 class="profile-name my-2">{{ .name }}</h6>

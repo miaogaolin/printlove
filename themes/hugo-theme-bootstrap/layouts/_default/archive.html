@@ -1,36 +1,35 @@
 {{ define "content" }}
 {{- $pages := where .Site.RegularPages "Type" "in" (default (slice "posts") .Site.Params.mainSections) -}}
 {{- $paginator := .Paginate $pages.ByDate.Reverse (default 100 .Site.Params.archive.paginate) -}}
-<div class="container archives col-lg-9 offset-lg-1">
-  <div class="container">
-    {{- partial "breadcrumb" . -}}
-    {{- $count := len $paginator.Pages -}}
-    {{- $lastYear := 0 -}}
-    {{- range $idx, $post := $paginator.Pages -}}
-    {{- $currentYear := $post.Date.Format "2006" }}
-    {{- $lastPost := $idx | add -1 | index $paginator.Pages -}}
-    {{- if or (eq $idx 0) (ne ($lastPost.Date.Format "2006") $currentYear) -}}
-    {{- if and (ne $lastYear 0) (ne $lastYear $currentYear) -}}
-    {{/* Different years, close the previous ul tag */}}
-    {{ printf "</ul></div>" | safeHTML }}
+<div class="archives col-lg-10 offset-lg-1">
+  {{- partial "breadcrumb" . -}}
+  {{- $count := len $paginator.Pages -}}
+  {{- $lastYear := 0 -}}
+  {{- range $idx, $post := $paginator.Pages -}}
+  {{- $currentYear := $post.Date.Format "2006" }}
+  {{- $lastPost := $idx | add -1 | index $paginator.Pages -}}
+  {{- if or (eq $idx 0) (ne ($lastPost.Date.Format "2006") $currentYear) -}}
+  {{- if and (ne $lastYear 0) (ne $lastYear $currentYear) -}}
+  {{/* Different years, close the previous ul tag */}}
+  {{ printf "</ul></div>" | safeHTML }}
+  {{- end -}}
+  <div class="archive surface row content-block">
+    <h3 class="archive-title">{{ $currentYear }}</h3>
+    <ul class="archive-posts">
     {{- end -}}
-    <div class="archive surface row">
-      <h3 class="archive-title">{{ $currentYear }}</h3>
-      <ul class="archive-posts">
-      {{- end -}}
-        <li>
-          <a class="archive-post-title" href="{{ .Permalink }}">{{ .Title }}</a>
-          <span class="float-end archive-post-date">{{ .Date.Format (default "Jan 2" $.Site.Params.archive.dateFormat) }}</span>
-        </li>
-      {{- if eq $idx (sub $count 1) -}}
-      {{/* Last item, close current ul tag */}}
-      </ul>
-    </div>
-    {{- end -}}
-    {{- $lastYear = $currentYear }}
-    {{- end -}}
-    {{- partial "pagination" . -}}
+      <li>
+        <a class="archive-post-title" href="{{ .Permalink }}">{{ .Title }}</a>
+        <span class="float-end archive-post-date">{{ .Date.Format (default "Jan 2" $.Site.Params.archive.dateFormat) }}</span>
+      </li>
+    {{- if eq $idx (sub $count 1) -}}
+    {{/* Last item, close current ul tag */}}
+    </ul>
   </div>
+  {{- end -}}
+  {{- $lastYear = $currentYear }}
+  {{- end -}}
+  {{- partial "pagination" . -}}
+
 </div>
 {{ end }}
 

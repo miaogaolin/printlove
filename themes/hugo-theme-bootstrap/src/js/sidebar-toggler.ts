@@ -36,6 +36,7 @@ class SidebarToggler {
     }
 
     hide() {
+        console.log(222)
         this.main.classList.replace('col-lg-7', 'col-lg-10')
         this.sidebar.classList.add('d-none')
         this.btn.classList.replace('fa-expand-alt', 'fa-compress-alt')

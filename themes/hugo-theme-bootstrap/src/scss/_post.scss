@@ -73,38 +73,11 @@
   word-wrap: break-word;
 }
 
-.post-nav {
-  width: 50%;
-  display: flex;
-}
-
-.prev-post,
-.next-post {
-  display: flex;
-  align-items: center;
-  a:hover{
-        text-decoration: none;
-        color: #{$white};
-    }
-}
-
-.next-post {
-  text-align: right;
-  flex-direction: row-reverse;
-}
-
-.prev-post:before,
-.next-post:before {
-  display: flex;
-  align-items: center;
-}
-
-.prev-post:before {
-  content: "<\00a0";
-}
-
-.next-post:before {
-  content: "\00a0>";
+.post-navs {
+  line-height: 2em;
+  a {
+    color: var(--hbs-accent);
+  }
 }
 
 .post-comments .utterances {

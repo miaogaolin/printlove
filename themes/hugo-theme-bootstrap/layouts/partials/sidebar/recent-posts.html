@@ -1,4 +1,4 @@
-<section class="recent-posts row surface">
+<section class="recent-posts row surface content-block">
   <h5>{{ T "recent_posts" }}</h5>
   <ul>
   {{- range first (default 5 .Site.Params.recentPostCount) (where site.RegularPages "Type" "in" site.Params.mainSections) -}}

@@ -81,6 +81,7 @@ table {
 }
 
 main {
+  margin-top: 0.5rem!important;
   margin-bottom: 2rem;
 }
 
@@ -92,7 +93,6 @@ ul {
   background-color: var(--hbs-surface);
   color: var(--hbs-on-surface);
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--hbs-shadow);
 }
 
 .list-group-item.active {
@@ -125,4 +125,15 @@ pre {
 .img-label {
   font-size: 14px;
   color: var(--hbs-secondary-text);
+}
+
+.content-block {
+  border-radius: 8px;
+  border: 1px solid var(--hbs-shadow);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.img-block {
+  border-radius: 4px;
 }

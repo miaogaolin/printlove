@@ -3,6 +3,8 @@
 }
 
 .sidebar {
+  padding-left: $aside-padding;
+  padding-right: $aside-padding;
   ul {
     padding-left: 2rem!important;
   }
@@ -15,7 +17,7 @@
   .wx-sub-account {
     text-align: center;
     img {
-      width: 80%;
+      width: 60%;
     }
   }
 }
