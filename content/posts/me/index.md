@@ -38,7 +38,6 @@ notshow: true
 这是我重点想让大家知道的项目。
 * [gofirst](https://github.com/miaogaolin/gofirst)：[《深入微服务》](/categories/深入微服务/)的相关代码。
 * [sql2ent](https://github.com/miaogaolin/sql2ent)：sql 语句转成 ent schema
-* [md](https://github.com/miaogaolin/md)：自定义 Markdown 样式，可粘贴到微信，目前我的公众号有在用。
 
 
 
