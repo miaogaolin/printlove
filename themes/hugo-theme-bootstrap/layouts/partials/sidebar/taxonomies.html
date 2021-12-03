@@ -4,9 +4,9 @@
 {{- $taxonomyCount := default 10 ($.Site.Param $param) -}}
 {{- with $value.ByCount -}}
 <section class="taxonomy-{{ $key }} row surface">
-  <h4>
+  <h5>
     <a href="{{ absLangURL (urlize $key) }}">{{ T $key }}</a>
-  </h4>
+  </h5>
   <div>
   {{- range $idx, $taxonomy := . -}}
     {{- if lt $idx $taxonomyCount -}}
