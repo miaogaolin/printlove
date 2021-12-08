@@ -1,20 +1,17 @@
 {{- $pages := (.Paginate .RegularPagesRecursive).Pages -}}
-<div class="container content-list">
-  {{- if .IsHome -}}
-    {{- $sections := default (slice "posts") .Site.Params.mainSections -}}
-    {{- $pages = where (.Paginate .Site.RegularPages).Pages "Type" "in" $sections -}}
-  {{- else -}}
-  {{- partial "breadcrumb" . -}}
-  {{- partial "sections" . -}}
-  {{- end -}}
-  {{- partial "hooks/list-begin" . -}}
-  <div class="posts row toollist">
-  {{- range $pages -}}
-    <div class="col-md-3 col-sm-4 col-xs-12 block-list">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </div>
-  {{- end -}}
-  </div>
-  {{- partial "hooks/list-end" . -}}
-  {{- partial "pagination" . -}}
+{{- if .IsHome -}}
+  {{- $sections := default (slice "posts") .Site.Params.mainSections -}}
+  {{- $pages = where (.Paginate .Site.RegularPages).Pages "Type" "in" $sections -}}
+{{- else -}}
+{{- partial "breadcrumb" . -}}
+{{- partial "sections" . -}}
+{{- end -}}
+{{- partial "hooks/list-begin" . -}}
+<div class="content-block surface row">
+  <ol>
+    {{- range $pages -}}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{- end -}}
+  </ol>
 </div>
+{{- partial "hooks/list-end" . -}}

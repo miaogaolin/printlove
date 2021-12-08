@@ -1,6 +1,10 @@
 {{ define "content" }}
-<div class="col-lg-7 offset-lg-1 content-post">
-  {{ partial "toollist" . }}
+<div class="container{{ if default false .Site.Params.fullWidth }}-fluid{{ end }}">
+  <div class="row">
+    <div class="col-lg-7 offset-lg-1 content-post">
+      {{ partial "toollist" . }}
+    </div>
+    {{- partial "sidebar" . -}}
+  </div>
 </div>
-{{- partial "sidebar" . -}}
 {{ end }}

@@ -19,36 +19,23 @@
     background-color: rgba(144, 146, 152, 0.5);
 }
 
-.toollist .block-list {
-    background-color: var(--hbs-surface);
-    border-radius: .25rem;
-    box-shadow: 0 .5rem 1rem var(--hbs-shadow);
-    color: var(--hbs-on-surface);
-    padding: 1rem;
-}
-
-.tool-info {
-    background-color: var(--hbs-surface);
-    border-radius: $block-radius;
-    color: var(--hbs-on-surface);
-    padding: 1rem;
-    box-shadow: 0 .5rem 1rem var(--hbs-shadow);
-    box-sizing: border-box;
-    margin-bottom: 1rem;
-    a {
-        color: var(--hbs-accent);
-
-        &:hover {
-          text-decoration: underline;
-        }
-    }
-}
-
 .tool-main {
     margin-top: 8px;
+    line-height: 2em;
     .post-comments{
         margin-left: calc(var(--bs-gutter-x) * .5);
         margin-right: calc(var(--bs-gutter-x) * .5);
+    }
+
+    ul, ol {
+        padding-left: 2em;
+    }
+
+    .tool-info {
+        padding: 1em;
+        border-radius: 8px;
+        background-color: var(--hbs-surface);
+        color: var(--hbs-on-surface);
     }
 }
 
