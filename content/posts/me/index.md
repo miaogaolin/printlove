@@ -23,7 +23,7 @@ notshow: true
 
 这是我的个人微信：
 
-![老苗](wx.jpg)
+![老苗](miao.png)
 
 ## 知乎
 
