@@ -27,10 +27,10 @@
 index.md 文件开头必须填写如下信息:
 * title 文章标题
 * date 时间
-* draft 是否草稿，发布时填写为 false，如果为 true，则不可访问
+* draft 是否草稿，发布时填写为 false（默认），如果为 true，则不可访问
 * categories 分类
-* tags 标签
-* description 文章描述
+* tags 标签，对应 meta 的 keywords
+* description 文章描述,不写默认截取文章内容
 * notshow 为 true 则不显示在列表，但可以通过链接访问
 * featured 为 true 标记为精选文章
 
@@ -39,9 +39,7 @@ index.md 文件开头必须填写如下信息:
 ---
 title: "实现HTML元素垂直居中的六种方法"
 date: 2021-10-06T10:47:56+08:00
-draft: false
 categories: ["前端"]
 tags: ["css"]
-description: "实现HTML元素垂直居中的六种方法"
 ---
 ```

@@ -6,7 +6,7 @@ categories: ["Golang"]
 tags: ["Protobuf"]
 description: "Protobuf 的实现原理，并说明 JSON、XML 的不同支持"
 series: ["深入微服务"]
-images: ["https://gitee.com/hxl_xsj/resource/raw/master/images/v2-0e6f115b88d34f8186f766f63603e4fa_r.jpg"]
+images: ["https://gitee.com/evan-miao/resource/raw/master/images/v2-0e6f115b88d34f8186f766f63603e4fa_r.jpg"]
 ---
 
 大家好，我是 “潇洒哥老苗”。
