@@ -9,6 +9,7 @@
   --hbs-accent: var(--hbs-primary);
   --hbs-shadow: rgba(0, 0, 0, .075);
   --hbs-navbar-bg: var(--hbs-primary);
+  --hbs-head-underline: #ececec;
 }
 
 @mixin mode-dark {
@@ -22,6 +23,7 @@
   --hbs-accent: var(--hbs-primary-light);
   --hbs-shadow: rgba(0, 0, 0, .75);
   --hbs-navbar-bg: var(--hbs-surface);
+  --hbs-head-underline: #565656;
 }
 
 .mode-light {
