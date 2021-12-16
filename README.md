@@ -33,6 +33,7 @@ index.md 文件开头必须填写如下信息:
 * description 文章描述,不写默认截取文章内容
 * notshow 为 true 则不显示在列表，但可以通过链接访问
 * featured 为 true 标记为精选文章
+* url 自定义访问地址
 
 举例如下：
 ```

@@ -7,9 +7,9 @@
 {{- if isset .Params 2 -}}
   {{ $type = .Get 2 }}
 {{- end -}}
-<div class="ratio ratio-21x9 neteasemusic">
-  <iframe class="neteasemusic-iframe"
-    src="https://music.163.com/outchain/player?type={{ $type }}&id={{ $id }}&auto={{ $auto }}"
-    loading="lazy">
-  </iframe>
-</div>
+<iframe class="neteasemusic-iframe"
+  frameborder="no" border="0" marginwidth="0" marginheight="0" height=86 width="100%"
+  src="https://music.163.com/outchain/player?type={{ $type }}&id={{ $id }}&auto={{ $auto }}&height=66"
+  loading="lazy">
+</iframe>
+
