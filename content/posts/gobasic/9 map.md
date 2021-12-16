@@ -168,7 +168,7 @@ map[a:2 c:4]
 
 ##  遍历
 
-遍历 map 需要用到 for-range 语法，如果不懂先看看《[流程控制](https://mp.weixin.qq.com/s/EKVpqt0RL0YqqOeK_3b7ww)》。
+遍历 map 需要用到 for-range 语法，如果不懂先看看[《流程控制》](/posts/gobasic/6-流程控制/)。
 
 ```go
 m := map[string]int{

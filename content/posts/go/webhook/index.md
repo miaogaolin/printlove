@@ -11,7 +11,7 @@ Github  Webhook(钩子) 说简单点，就是当你的项目触发了某个动�
 
 这块我接收通知用来自动更新我服务器上的网站，不用再自己登录服务器更新。
 
-首先要安装 Go 环境，查看[《Go基础系列 | 环境搭建》](https://mp.weixin.qq.com/s/8oQQ87d8rs3IVWgSnuF76Q)。
+首先要安装 Go 环境，查看[《环境搭建》](/posts/gobasic/2-环境搭建/)。
 
 ## 添加 webhook
 

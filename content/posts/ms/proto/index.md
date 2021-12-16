@@ -227,7 +227,7 @@ message HelloRequest {
 
 我先说结果，如果写 proto 文件时，设置的数据类型为 sint32 或 sint64 时，将采用 ZigZag 算法进行数据压缩。
 
-ZigZag 算法我就不重复讲解了，直接看[上一篇](https://mp.weixin.qq.com/s/7ZzbCiPnYHh8d-pmqzXvNw)。
+ZigZag 算法我就不重复讲解了，直接看[上一篇](/posts/ms/zigzag/)。
 
 ## 小结
 
@@ -241,7 +241,7 @@ ZigZag 算法我就不重复讲解了，直接看[上一篇](https://mp.weixin.q
 
 后面我会使用 Go 语言实现 Protobuf 序列化和反序列化的核心算法，只要这样我才觉得真的明白了该算法的真谛。
 
-可持续关注该项目：[https://github.com/miaogaolin/gofirst](https://github.com/miaogaolin/gofirst)，该[系列](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIzNzQwNTQwNg==&action=getalbum&album_id=2126863251039633410&scene=173&from_msgid=2247484609&from_itemidx=1&count=3&nolastread=1#wechat_redirect)的所有代码往后都会加入进去。
+可持续关注该项目：[https://github.com/miaogaolin/gofirst](https://github.com/miaogaolin/gofirst)，该[系列](/series/go基础系列/)的所有代码往后都会加入进去。
 
 ## 参考
 

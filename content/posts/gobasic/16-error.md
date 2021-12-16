@@ -34,7 +34,7 @@ type error interface {
 }
 ```
 
-该接口是 Go 标准包内置的，所有创建的错误类型都需要实现此接口，怎么去实现接口，不懂的看看上篇文章 [《接口》](https://mp.weixin.qq.com/s/NPmlnpEN4SqiEZm6BL-fOA)。
+该接口是 Go 标准包内置的，所有创建的错误类型都需要实现此接口，怎么去实现接口，不懂的看看上篇文章 [《接口》](/posts/gobasic/15-interface/)。
 
 ### 1. errors.New
 

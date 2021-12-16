@@ -341,7 +341,7 @@ true
 
 ### 3. type-switch
 
-这个知识点其实在很早之前的[《流程控制》](https://mp.weixin.qq.com/s/EKVpqt0RL0YqqOeK_3b7ww)一篇中讲过了，我再讲一遍并补充。
+这个知识点其实在很早之前的[《流程控制》](/posts/gobasic/6-流程控制/)一篇中讲过了，我再讲一遍并补充。
 
 ```go
 var data interface{}
