@@ -56,10 +56,11 @@ layout: tools
       let schema = input.getValue()
       if (schema != "") {
         $.ajax({
-          url: "/api/xml2json",
+          url: "/api/tool",
           type: "post",
           data: {
-            schema: schema
+            input: schema,
+            method: "xml2json"
           },
           success: function(res) {
             if (res.error != "") {

@@ -55,10 +55,11 @@ layout: tools
       let schema = input.getValue()
       if (schema != "") {
         $.ajax({
-          url: "/api/sql2es",
+          url: "/api/tool",
           type: "post",
           data: {
-            schema: schema
+            input: schema,
+            method: "sql2es"
           },
           success: function(res) {
             if (res.error != "") {

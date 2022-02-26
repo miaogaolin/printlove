@@ -51,10 +51,11 @@ layout: tools
       let sql = input.getValue()
       if (sql != "") {
         $.ajax({
-          url: "/api/sql2gorm",
+          url: "/api/tool",
           type: "post",
           data: {
-            ddl: sql
+            input: sql,
+            method: "sql2gorm"
           },
           success: function(res) {
             if (res.error != "") {

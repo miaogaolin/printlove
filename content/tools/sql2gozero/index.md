@@ -61,11 +61,12 @@ layout: tools
       let sql = input.getValue()
       if (sql != "") {
         $.ajax({
-          url: "/api/sql2gozero",
+          url: "/api/tool",
           type: "post",
           data: {
-            ddl: sql,
-            cache: cache
+            input: sql,
+            cache: cache,
+            method: "sql2gozero"
           },
           success: function(res) {
             if (res.error != "") {

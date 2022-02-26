@@ -51,10 +51,11 @@ layout: tools
       let sql = input.getValue()
       if (sql != "") {
         $.ajax({
-          url: "/api/sql2ent",
+          url: "/api/tool",
           type: "post",
           data: {
-            ddl: sql
+            input: sql,
+            method: "sql2ent"
           },
           success: function(res) {
             if (res.error != "") {
