@@ -51,10 +51,11 @@ layout: tools
       let schema = input.getValue()
       if (schema != "") {
         $.ajax({
-          url: "/api/yaml2go",
+          url: "/api/tool",
           type: "post",
           data: {
-            schema: schema
+            input: schema,
+            method: "yaml2go"
           },
           success: function(res) {
             if (res.error != "") {
