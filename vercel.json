@@ -4,5 +4,10 @@
       "src": "/api/tool",
       "dest": "/api/tool.go"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.92.2"
+    }
+  }
 }
