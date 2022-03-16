@@ -3,7 +3,7 @@ title: "Vercel + Notion 建个人博客"
 date: 2021-12-17
 url: vercel-notion
 categories: ["工具"]
-tags: ["单元测试"]
+tags: ["Vercel", "Notion", "博客"]
 keywords: ["Vercel", "Notion"]
 description: "以 Notion 为后台，建造一个免费的博客，不需要服务器。"
 ---
