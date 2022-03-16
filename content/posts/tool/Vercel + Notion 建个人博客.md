@@ -5,7 +5,6 @@ url: vercel-notion
 categories: ["工具"]
 tags: ["单元测试"]
 keywords: ["Vercel", "Notion"]
-series: ["Go基础系列"]
 description: "以 Notion 为后台，建造一个免费的博客，不需要服务器。"
 ---
 大家好，我是 “潇洒哥老苗”。
