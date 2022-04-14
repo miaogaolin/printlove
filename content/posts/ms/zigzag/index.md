@@ -6,7 +6,7 @@ categories: ["Golang"]
 tags: ["ZigZag"]
 description: "Protobuf 底层使用的压缩算法，并使用 Go 语言实现"
 series: ["深入微服务"]
-images: ["https://gitee.com/evan-miao/resource/raw/master/images/2443-1.jpg"]
+images: ["https://imgs-go-instagram.insloves.com/images/2443-1.jpg"]
 ---
 
 我原本是想研究 Protobuf 原理呢，但在研究过程中发现 Protobuf 在对负数编码时使用到了 ZigZag 算法，所以才有了本篇。当然你不懂 Protobuf 也完全不影响阅读。
