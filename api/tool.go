@@ -10,15 +10,15 @@ import (
 	"github.com/miaogaolin/gotl/common/yaml2go"
 	"github.com/miaogaolin/gotl/response"
 	sql2ent "github.com/miaogaolin/sql2ent/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/config"
+	"github.com/zeromicro/go-zero/tools/goctl/config"
 	"net/http"
 	"os"
 )
 
-func Tool(w http.ResponseWriter, r *http.Request)  {
+func Tool(w http.ResponseWriter, r *http.Request) {
 	method := r.PostFormValue("method")
 	var (
-		err error
+		err  error
 		data string
 	)
 	input := r.PostFormValue("input")
@@ -55,8 +55,7 @@ func Tool(w http.ResponseWriter, r *http.Request)  {
 	response.WriteSuccess(w, data)
 }
 
-
-func SqlToGoZero(ddl, cache string) (string, error){
+func SqlToGoZero(ddl, cache string) (string, error) {
 	os.Setenv("HOME", "./")
 	g, err := gen.NewGenerator("model", &config.Config{NamingFormat: config.DefaultFormat})
 	if err != nil {
