@@ -5,7 +5,7 @@ go 1.16
 require (
 	github.com/basgys/goxml2json v1.1.1-0.20181031222924-996d9fc8d313
 	github.com/cch123/elasticsql v1.0.1
-	github.com/miaogaolin/gotl v0.0.0-20220312013827-235c609cd098
+	github.com/miaogaolin/gotl v0.0.0-20220531063215-58c7f52a5d7f
 	github.com/miaogaolin/sql2ent v0.0.0-20210918040822-24e64c0ebc9c
 	github.com/zeromicro/go-zero/tools/goctl v1.3.2
 )
