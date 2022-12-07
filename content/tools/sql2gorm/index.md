@@ -25,7 +25,6 @@ layout: tools
   <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
 	</script> 
   <script src="/js/jquery.js"></script>
-  <script src="/layer/layer.js"></script>
   <script src="/js/tools.js?v=0.0.3"></script>
   <script>
     document.getElementById("btnExpan").onclick = function() {
@@ -59,11 +58,16 @@ layout: tools
           },
           success: function(res) {
             if (res.error != "") {
-              layer.alert(res.error)
+              output.setError(res.error)
             } else {
               output.setValue(res.data)
             }
-          } 
+          },
+          error: function(xhr, status, err) {
+            if (err != "") {
+              output.setError(err)
+            }
+          }
         })
       }
     }
@@ -72,3 +76,7 @@ layout: tools
     copy(output)
 	</script> 
   {{< /html >}}
+  {{< html >}}<div class="tool-info">{{< /html >}}
+  ## 基于项目
+  [https://github.com/miaogaolin/gotl](https://github.com/miaogaolin/gotl)
+  {{< html >}}</div>{{< /html >}}

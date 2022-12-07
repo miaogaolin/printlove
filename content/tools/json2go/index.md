@@ -32,7 +32,6 @@ layout: tools
   <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
 	</script>
   <script src="/js/jquery.js"></script>
-  <script src="/layer/layer.js"></script>
   <script src="/js/tools.js?v=0.0.3"></script>
   <script src="/js/json2go.js?v=0.0.1"></script>
   <script>
@@ -69,7 +68,7 @@ layout: tools
     function convert(flat=true, tagName="json") {
       let res = json2go(input.getValue(), null, tagName, flat);
       if (res.error) {
-          alert(res.error)
+          output.setError(res.error)
           return
       }
       output.setValue(res.go)

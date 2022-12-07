@@ -325,6 +325,8 @@ github.com/miaogaolin/gotl v0.0.0-20220226163541-1b22795b2984 h1:fiY+Jst6jS2i8t4
 github.com/miaogaolin/gotl v0.0.0-20220226163541-1b22795b2984/go.mod h1:bRf/0EgsCreRPI/g+X9Fg+iRZFegkVJsfx3QLqlt8PM=
 github.com/miaogaolin/gotl v0.0.0-20220312013827-235c609cd098 h1:5zMOmrVAL+eubpTbSAZqChZoERBydOtCExcQ5LimMLI=
 github.com/miaogaolin/gotl v0.0.0-20220312013827-235c609cd098/go.mod h1:pKTNi/qvV5v8DCoVBo1TBI3eB74VYiIjSxOAv5i+eu8=
+github.com/miaogaolin/gotl v0.0.0-20220531063215-58c7f52a5d7f h1:WpztU0kbzpV9Bzps8pWkAHRBCqJCfld7bS4eB7qwe2Q=
+github.com/miaogaolin/gotl v0.0.0-20220531063215-58c7f52a5d7f/go.mod h1:pKTNi/qvV5v8DCoVBo1TBI3eB74VYiIjSxOAv5i+eu8=
 github.com/miaogaolin/sql2ent v0.0.0-20210918040822-24e64c0ebc9c h1:qXyYSvg51M+jVTVfgfIt3SQy/yZfz43inwg4M/138VY=
 github.com/miaogaolin/sql2ent v0.0.0-20210918040822-24e64c0ebc9c/go.mod h1:j+/6DzrEsJi6rLZETq6Co7ZzKdAJQxQkAjWMs0nu7aQ=
 github.com/mitchellh/mapstructure v1.1.2/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
